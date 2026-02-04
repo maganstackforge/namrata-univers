@@ -1,6 +1,6 @@
 import React from 'react'
 import 'aos/dist/aos.css'
-import Prateek from '../assets/images/Prateek jaiswal.webp'
+import Prateek from '../assets/images/Prateek Jaiswal.webp'
 import Amit from '../assets/images/Amit Tamang.webp'
 import Premlata from '../assets/images/Premlata Patel.webp'
 import Somya from '../assets/images/Somya Gupta.webp'
