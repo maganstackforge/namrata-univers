@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&display=swap');
+@import 'tailwindcss';
+
+@config "./tailwind.config.js";
+/* Custom CSS Variables */
+@layer base {
+  html {
+    font-family: 'Noto Serif', serif;
+  }
+}
+
+@layer components {
+  body {
+    @apply m-0 bg-[#ffffff] p-0;
+  }
+  .section-container {
+    @apply mx-auto w-full max-w-[1280px] scroll-mt-22 md:px-12;
+  }
+
+  /* hide heder */
+  .hide {
+    @apply -top-24;
+  }
+
+  /* Show header */
+  .visible {
+    @apply top-0;
+  }
+
+  .common-link {
+    @apply h-20 px-5 py-2 hover:bg-[#37778F];
+  }
+}

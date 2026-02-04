@@ -1,0 +1,121 @@
+import staticWebImages from '../assets/images/Pricing1_Static.webp'
+import dynamicWebImages from '../assets/images/Pricing2_dynamic.webp'
+import EcommerceWebImages from '../assets/images/Pricing3_Ecommerce.webp'
+import androidWebImages from '../assets/images/Pricing4_android.webp'
+import SEOWebImages from '../assets/images/Pricing5_Seo.webp'
+import digitalMarketingWebImages from '../assets/images/Pricing6_DigitalMarketing.webp'
+
+const pricingData = [
+  {
+    imgSrc: staticWebImages,
+    title: 'Static Website',
+    price: '8,999',
+    features: [
+      { name: 'Only 5 Pages', available: true },
+      { name: 'Unique Design', available: true },
+      { name: '1 Contact Form', available: true },
+      { name: 'Domain Name (1st yr)', available: true },
+      { name: '100 MB Hosting (1st yr)', available: true },
+      { name: 'Project Duration', available: true },
+      { name: 'Social Networking', available: false },
+      { name: '3 Mail ID', available: false },
+      { name: 'Icons', available: false },
+      { name: 'Photo Gallery', available: false },
+      { name: 'Payment Gateway', available: false },
+      { name: 'Multiple Shipment', available: false },
+      { name: 'Easy Checkout Process', available: false },
+    ],
+  },
+  {
+    imgSrc: dynamicWebImages,
+    title: 'Dynamic Website',
+    price: '12,999',
+    features: [
+      { name: 'Up to 15 Pages', available: true },
+      { name: 'Professional Design', available: true },
+      { name: 'Free 1 yr Domain', available: true },
+      { name: '5 GB Integrated', available: true },
+      { name: 'Free Google Font Hosting', available: true },
+      { name: 'Admin Panel Managing Website', available: true },
+      { name: 'Social Networking', available: true },
+      { name: '3 Mail ID', available: true },
+      { name: 'Icons', available: true },
+      { name: 'Photo Gallery', available: true },
+      { name: 'Payment Gateway', available: false },
+      { name: 'Multiple Shipment', available: false },
+      { name: 'Easy Checkout Process', available: false },
+    ],
+  },
+  {
+    imgSrc: EcommerceWebImages,
+    title: 'E-Commerce Website',
+    price: '29,999',
+    features: [
+      { name: 'Multiple Admin Panel for Multiple Users', available: true },
+      { name: 'Admin Panel for Seller', available: true },
+      { name: 'Easy Admin Panel for Managing Products', available: true },
+      { name: 'Mobile Responsive', available: true },
+      { name: 'Unlimited Product', available: true },
+      { name: '20 GB Hosting', available: true },
+      { name: 'Categories', available: true },
+      { name: 'Payment Gateway', available: true },
+      { name: 'Multiple Shipment', available: true },
+      { name: 'Easy Checkout Process', available: true },
+      { name: 'Social Networking', available: false },
+      { name: 'Icons', available: false },
+    ],
+  },
+  {
+    imgSrc: androidWebImages,
+    title: 'Android App Development',
+    price: '37,999',
+    features: [
+      { name: 'Static Website', available: true },
+      { name: 'Dynamic Website', available: true },
+      { name: 'Responsive Website', available: true },
+      { name: 'Android Development', available: true },
+      { name: 'E-Commerce App/Web', available: true },
+      { name: '20 GB Hosting', available: false },
+      { name: 'Categories', available: false },
+      { name: 'Payment Gateway', available: false },
+      { name: 'Multiple Shipment', available: false },
+      { name: 'Easy Checkout Process', available: false },
+    ],
+  },
+  {
+    imgSrc: SEOWebImages,
+    title: 'SEO Optimization',
+    price: '47,999',
+    features: [
+      { name: '5 Keywords : 7,999 /-', available: true },
+      { name: '10 Keywords : 11,999 /-', available: true },
+      { name: '20 Keywords : 19,999 /-', available: true },
+      { name: '40 Keywords : 47,999 /-', available: true },
+      { name: 'Logo Design (Creative and Unique)', available: true },
+      { name: 'Marketing Posts Designs', available: true },
+      { name: 'Competitor Analysis', available: true },
+      { name: 'Hashtag Research & Indexing', available: true },
+      { name: 'Content Creation & Writing (3000 Word PM)', available: true },
+      { name: 'Growth Optimization & Daily Management', available: true },
+    ],
+  },
+  {
+    imgSrc: digitalMarketingWebImages,
+    title: 'Digital Marketing',
+    price: '44,998',
+    features: [
+      { name: 'Social Media Management', available: true },
+      { name: 'Search Engine Optimization', available: true },
+      { name: 'Website Maintenance', available: true },
+      { name: 'Website Ads', available: true },
+      { name: 'Google Ads', available: true },
+      { name: 'Pay Per Click', available: true },
+      { name: 'Facebook / YouTube Ads', available: true },
+      { name: 'Affiliate Marketing', available: true },
+      { name: 'Social Media Designing', available: true },
+      { name: 'Content Writing', available: true },
+    ],
+  },
+]
+
+export default pricingData
