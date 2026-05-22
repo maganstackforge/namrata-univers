@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+
 import { createContext, useContext, useState } from 'react'
 import Modal from '../components/Modal'
 
@@ -28,4 +30,4 @@ export const ModalProvider = ({ children }) => {
 }
 
 export const useModal = () => useContext(ModalContext)
-export { ModalContext } // ✅ Optional, but safe to include
+export { ModalContext }

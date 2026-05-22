@@ -1,134 +1,207 @@
-# 👟 StrideZone - The Shoe Company
+# Namrata Universal Clone
 
-StrideZone is a modern, responsive, and stylish Shoe Company Website built with React + Vite + Tailwind CSS.
-It highlights products, brand story, and ensures a smooth user experience across all devices.
-
-🔗 **Live Demo:** [StrideZone](https://stridezone.netlify.app)
-
-## 🎨 Figma Design Reference
-
-- The UI/UX design for this project is based on a Figma design:  
-  [View the Figma Design](https://www.figma.com/design/KRagV1oBRnzQAOIOwalUgz/The-Shoe-Company?node-id=0-1&p=f)
-
-**Note:** The layout and structure follow the Figma design closely, but colors, hover effects, and active background states have been customized in this implementation.
-
-## ✨ Features
-
-⚡ Blazing Fast – Powered by Vite
-
-🎨 Modern UI/UX – Tailwind CSS for clean and responsive design
-
-📱 Fully Responsive – Mobile-first approach, works on all devices
-
-🧩 Reusable Components – Scalable modular React structure
-
-🚀 Interactive Modal – Built using React Portal for seamless user experience
-
-🌙 Clean Codebase – ESLint & Prettier integrated for consistency
-
-🚀 Performance Optimized – Lazy loading & code-splitting implemented for faster load times.  
-All images are also lazy-loaded for better performance.
-
-## 🚀 One-Click Deploy – Hosted on Netlify
-
-## 🛠️ Tech Stack
-
-- React – For building UI components
-
-- Vite – Fast bundler & development server
-
-- Tailwind CSS – Utility-first CSS framework
-
-- ESLint – Code linting & error checking
-
-## Prettier – Code formatting
-
-## 📂 Folder Structure
-
-StrideZone/
-├── public/ # Static files
-├── src/
-│ ├── assets/ # Images, icons, static assets
-│ ├── components/ # Reusable UI components
-│ ├── hooks/ # Custom React hooks
-│ ├── App.jsx # Root React component
-│ ├── main.jsx # React entry point
-│ ├── index.css # Global styles (Tailwind)
-│ └── App.css # Additional styles
-├── .eslintrc.js # ESLint configuration
-├── .prettierrc.json # Prettier configuration
-├── package.json # Dependencies & scripts
-├── vite.config.js # Vite configuration
-├── tailwind.config.js # Tailwind configuration
-├── index.html # Main HTML file
-└── README.md # Project documentation
+A modern and fully responsive business website clone inspired by Namrata Universal, built using React, Vite, and Tailwind CSS. This project focuses on clean UI design, reusable component architecture, smooth animations, responsive layouts, and frontend performance optimization.
 
 ---
 
-## ⚙️ Getting Started
+## 🚀 Live Demo
 
-Clone and run the project locally:
+🔗 Live Website:
+
+https://your-live-link.netlify.app
+
+---
+
+## 📌 Features
+
+- Fully Responsive Design
+- Modern UI/UX
+- React Router Navigation
+- Smooth Scroll Animations using AOS
+- Swiper Sliders & Carousels
+- Loading Progress Bar
+- Reusable React Components
+- Optimized Image Handling
+- SEO Friendly Structure
+- Fast Build with Vite
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend Technologies
+
+- React 19
+- Vite
+- Tailwind CSS 4
+- React Router DOM
+- Swiper.js
+- AOS Animation Library
+- Lucide React
+- Heroicons
+- React Icons
+
+### Development Tools
+
+- ESLint
+- Prettier
+- Vite Image Tools
+
+---
+
+## 📁 Project Structure
 
 ```bash
-# Clone the repository
-git clone https://github.com/Magan248/StrideZone.git
-cd StrideZone
+NAMRATA_UNIVERSAL/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   ├── images/
+│   │   └── video/
+│   │
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── hooks/
+│   ├── layouts/
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── .prettierrc.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
 
-# Install dependencies
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/namratauniversal-clone.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```bash
+cd namratauniversal-clone
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
-# Start development server
+### 4️⃣ Start Development Server
+
+```bash
 npm run dev
+```
 
-# Build for production
+---
+
+## 📦 Production Commands
+
+### Build for Production
+
+```bash
 npm run build
+```
 
-# Preview production build
+### Preview Production Build
+
+```bash
 npm run preview
 ```
 
-## 📸 Screenshots
+---
 
-### 🖥️ Desktop View
+## 🧹 Linting
 
-- **Home Page**
-  ![Home Page](./screenshots/DesktopHome.png)
+### Check Lint Errors
 
-- **About Section**
-  ![About Section](./screenshots/DesktopHowItWork.png)
+```bash
+npm run lint
+```
 
-- **Product About**
-  ![Product Section](./screenshots/DesktopAbout.png)
+### Auto Fix Lint Errors
 
-- **Testimonials Section**
-  ![Contact Section](./screenshots/DesktopTestimonials.png)
+```bash
+npm run lint:fix
+```
 
 ---
 
-### 📱 Mobile View
+🎨 Libraries & Packages
 
-- **Home Page (Mobile)**
-  ![Home Mobile](./screenshots/MobileHome.png)
+        | Package               | Purpose               |
+        | --------------------- | --------------------- |
+        | react-router-dom      | Routing               |
+        | swiper                | Sliders & carousels   |
+        | aos                   | Scroll animations     |
+        | lucide-react          | Icons                 |
+        | react-icons           | Icon library          |
+        | react-top-loading-bar | Top loading indicator |
+        | tailwindcss           | Utility-first CSS     |
+        | vite                  | Fast bundler          |
 
-- **Mobile Home with How it work Section**
-  ![Contact Section](./screenshots/MobileHomeWithHowitwork.png)
-- **Mobile Testimonials Section**
-  ![Contact Section](./screenshots/MobileTestimonial.png)
+---
 
-  🧹 Code Quality
+## 📱 Responsive Design
 
-#### This project follows industry best practices:
+This website is optimized for:
 
-✅ Linting with ESLint (npm run lint)
+- Mobile Devices
+- Tablets
+- Laptops
+- Desktop Screens
 
-🔧 Auto-fix common issues (npm run lint:fix)
+---
 
-🎯 Prettier for consistent code formatting
+## ⚡ Performance Optimizations
+
+- Optimized WebP images
+- Compressed MP4 videos
+- Lazy asset loading
+- Responsive layouts
+- Reusable component architecture
+- Fast bundling with Vite
+- Optimized media rendering
+
+---
+
+## 📖 Learning Purpose
+
+This project was built for:
+
+- Frontend development practice
+- React component architecture
+- Responsive web design
+- Modern UI implementation
+- Performance optimization learning
+
+---
 
 ## 👨‍💻 Author
 
-**Magan Singh**
+**Magan Singh**  
+Frontend Developer
 
-- GitHub: [@Magan248](https://github.com/Magan248)
-- LinkedIn: [Magan Singh](https://www.linkedin.com/in/magan248)
-- Live Demo: [StrideZone](https://stridezone.netlify.app/?utm_source=newsletter&utm_medium=email)
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes only.

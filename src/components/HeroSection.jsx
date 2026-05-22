@@ -1,4 +1,4 @@
-import videoFile from '../assets/video/video.mp4'
+import videoFile from '../assets/video/Compressed_video.mp4'
 export default function HeroSection() {
   return (
     <section id='hero' className='w-full'>
@@ -9,6 +9,7 @@ export default function HeroSection() {
           loop
           muted
           playsInline
+          preload='metadata'
           className='top-0 left-0 w-full h-full object-cover'
         ></video>
       </div>
