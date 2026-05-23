@@ -12,7 +12,7 @@ https://namrataunivers.netlify.app/
 
 ## 🚀 GitHub repo link
 
-https://github.com/Magan248/namratauniversal.com---
+https://github.com/Magan248/namratauniversal.com
 
 ## 🚀 linkedin link
 
