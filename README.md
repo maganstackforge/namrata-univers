@@ -22,19 +22,19 @@ www.linkedin.com/in/magan248
 
 ### Home Page
 
-![Home Page](./src/assets/screenshots/HomePage.webp)
+![Home Page](./public/screenshots/HomePage.webp)
 
 ### About Page
 
-![About Page](./src/assets/screenshots/AboutPage.webp)
+![About Page](./public/screenshots/AboutPage.webp)
 
 ### About Mobile Page
 
-![About Page Mobile](./src/assets/screenshots/AboutMobile.webp)
+![About Page Mobile](./public/screenshots/AboutMobile.webp)
 
 ### Internship Page
 
-![Internship Page](./src/assets/screenshots/InternshipPage.webp)
+![Internship Page](./public/screenshots/InternshipPage.webp)
 
 ## 📌 Features
 
