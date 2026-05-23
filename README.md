@@ -8,9 +8,33 @@ A modern and fully responsive business website clone inspired by Namrata Univers
 
 🔗 Live Website:
 
-https://your-live-link.netlify.app
+https://namratauniversals.netlify.app/
 
----
+## 🚀 GitHub repo link
+
+https://github.com/Magan248/namratauniversal.com---
+
+## 🚀 linkedin link
+
+www.linkedin.com/in/magan248
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](./src/assets/screenshots/HomePage.webp)
+
+### About Page
+
+![About Page](./src/assets/screenshots/AboutPage.webp)
+
+### About Mobile Page
+
+![About Page Mobile](./src/assets/screenshots/AboutMobile.webp)
+
+### Internship Page
+
+![Internship Page](./src/assets/screenshots/InternshipPage.webp)
 
 ## 📌 Features
 
@@ -27,9 +51,15 @@ https://your-live-link.netlify.app
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Key Learning Outcomes
 
-### Frontend Technologies
+- Built reusable React component architecture
+- Implemented responsive layouts using Tailwind CSS
+- Practiced route-based code organization
+- Improved SEO using React Helmet
+- Optimized frontend performance and asset loading
+
+## 🛠️ Frontend Technologies
 
 - React 19
 - Vite
@@ -49,6 +79,14 @@ https://your-live-link.netlify.app
 
 ---
 
+## 🔍 SEO Optimization
+
+- Dynamic meta tags using React Helmet Async
+- Canonical URLs
+- Open Graph meta tags
+- Twitter card support
+- SEO-friendly route structure
+
 ## 📁 Project Structure
 
 ```bash
@@ -67,6 +105,7 @@ NAMRATA_UNIVERSAL/
 │   ├── data/
 │   ├── hooks/
 │   ├── layouts/
+│   ├── pages
 │   │
 │   ├── App.jsx
 │   ├── index.css
@@ -198,7 +237,7 @@ This project was built for:
 ## 👨‍💻 Author
 
 **Magan Singh**  
-Frontend Developer
+Frontend Developer | React Developer
 
 ---
 

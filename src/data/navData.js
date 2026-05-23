@@ -27,5 +27,5 @@ export const navMenu = [
   { label: 'ABOUT', href: '/About' },
   { label: 'CONTACT', href: '/Contact' },
   { label: 'BLOG', href: '/Blog' },
-  { label: 'PAY', href: '/Pay' },
+  { label: 'PAY', href: '/Payment' },
 ]

@@ -14,20 +14,21 @@ const CallToAction = lazy(() => import('./components/CallToAction'))
 const MainTermOfSite = lazy(() => import('./components/MainTermOfSite'))
 const Review = lazy(() => import('./components/Review'))
 const OurClients = lazy(() => import('./components/OurClients'))
-const Contact = lazy(() => import('./components/Contact'))
-const Portfolio = lazy(() => import('./components/Portfolio'))
+const Contact = lazy(() => import('./pages/ContactPage'))
+const Portfolio = lazy(() => import('./pages/PortfolioPage'))
 const OurPricing = lazy(() => import('./components/OurPricing'))
 const MeetOurTeam = lazy(() => import('./components/MeetOurTeam'))
-const Skill = lazy(() => import('./components/Skill'))
-const ModernTechnology = lazy(() => import('./components/ModernTechnology'))
-const DigitalMarketing = lazy(() => import('./components/DigitalMarketing'))
-const Seo = lazy(() => import('./components/Seo'))
-const PrivacyPolicy = lazy(() => import('./components/PrivacyPolicy'))
-const TermsAndCondition = lazy(() => import('./components/TermsAndCondition'))
-const RefundPolicy = lazy(() => import('./components/RefundPolicy'))
-const Internship = lazy(() => import('./components/Internship'))
-const Blog = lazy(() => import('./components/Blog'))
-const NotFound = lazy(() => import('./components/NotFound'))
+const Skill = lazy(() => import('./pages/SkillPage'))
+const ModernTechnology = lazy(() => import('./pages/ModernTechnologyPage'))
+const DigitalMarketing = lazy(() => import('./pages/DigitalMarketingPage'))
+const Seo = lazy(() => import('./pages/SeoPage'))
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicyPage'))
+const TermsAndCondition = lazy(() => import('./pages/TermsAndConditionPage'))
+const RefundPolicy = lazy(() => import('./pages/RefundPolicyPage'))
+const Internship = lazy(() => import('./pages/InternshipPage'))
+const Blog = lazy(() => import('./pages/BlogPage'))
+const Payment = lazy(() => import('./pages/PaymentPage'))
+const NotFound = lazy(() => import('./pages/NotFoundPage'))
 function App() {
   useEffect(() => {
     AOS.init({
@@ -49,7 +50,6 @@ function App() {
           {/*  Layout Routes */}
           <Route element={<Layout />}>
             <Route path='/' element={<HomePage />} />
-
             <Route path='/About' element={<AboutPage />} />
             <Route path='*' element={<NotFound />} />
             <Route path='/Service' element={<Service />} />
@@ -67,6 +67,7 @@ function App() {
             <Route path='/Seo' element={<Seo />} />
             <Route path='/Internship' element={<Internship />} />
             <Route path='/Blog' element={<Blog />} />
+            <Route path='/Payment' element={<Payment />} />
           </Route>
 
           {/*  Without Layout */}
