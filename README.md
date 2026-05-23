@@ -129,13 +129,13 @@ NAMRATA_UNIVERSAL/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/namratauniversal-clone.git
+git clone https://github.com/Magan248/namratauniversal.com.git
 ```
 
 ### 2️⃣ Navigate to Project Folder
 
 ```bash
-cd namratauniversal-clone
+cd namratauniversal.clone
 ```
 
 ### 3️⃣ Install Dependencies
