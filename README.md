@@ -8,7 +8,7 @@ A modern and fully responsive business website clone inspired by Namrata Univers
 
 🔗 Live Website:
 
-https://namratauniversals.netlify.app/
+https://namrataunivers.netlify.app/
 
 ## 🚀 GitHub repo link
 
