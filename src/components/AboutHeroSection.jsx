@@ -1,4 +1,4 @@
-import videoFile1 from '../assets/video/Compressed_video1.mp4'
+import videoFile1 from '../assets/video/about-video.mp4'
 export default function AboutHeroSection() {
   return (
     <section id='AboutHeroSection' className='bg-cover bg-right bg-no-repeat md:bg-contain'>

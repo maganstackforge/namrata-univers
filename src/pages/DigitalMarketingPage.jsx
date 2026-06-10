@@ -4,14 +4,14 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import { sliderData } from '../data/sliderData'
-import DigiBanner from '../assets/images/dgBanner1.jpg'
-import DigitalMarketingSecond from '../assets/images/DigitalMarketingSecond3.webp'
-import DigitalMarketingLast from '../assets/images/digiBanner8.webp'
+import DigiBanner from '../assets/images/digital-banner/dgBanner1.jpg'
+import DigitalMarketingSecond from '../assets/images/digital-banner/DigitalMarketingSecond3.webp'
+import DigitalMarketingLast from '../assets/images/digital-banner/digiBanner8.webp'
 export default function DigitalMarketing() {
   const prevRef = useRef(null)
   const nextRef = useRef(null)
+  const swiperRef = useRef(null)
   return (
     <>
       <Helmet>
@@ -52,8 +52,12 @@ export default function DigitalMarketing() {
           <img
             src={DigiBanner}
             alt='Digital Marketing Poster'
+            width={1200}
+            height={500}
             loading='lazy'
-            className='h-40 sm:h-72 md:h-96'
+            decoding='async'
+            fetchPriority='low'
+            className='w-full h-40 sm:h-72 md:h-96 object-cover'
           />
           <div className='w-10/12 mx-auto mt-10 flex justify-center'>
             <h1 className='text-xl sm:text-2xl md:text-4xl font-bold p-4 text-center'>
@@ -207,33 +211,14 @@ export default function DigitalMarketing() {
             </div>
           </div>
           <div
-            className='w-11/12 mx-auto relative origin-bottom px-4 sm:px-10 pt-10 pb-20 mb-10 text-center flex
+            className='w-11/12 mx-auto relative origin-bottom px-4 sm:px-10 py-10 text-center flex
               justify-center items-center bg-[#91ADC8] rounded-tl-4xl rounded-br-4xl'
           >
-            {/* 🔥 Custom Prev Arrow */}
-            <div className='absolute flex justify-center items-center gap-6 bottom-4'>
-              <button
-                ref={prevRef}
-                className='bg-white/60 backdrop-blur-md p-3 rounded-full shadow text-black font-bold z-5'
-              >
-                ◀
-              </button>
-
-              {/* 🔥 Custom Next Arrow */}
-              <button
-                ref={nextRef}
-                className='bg-white/60 backdrop-blur-md p-3 rounded-full shadow text-black font-bold z-5'
-              >
-                ▶
-              </button>
-            </div>
             <Swiper
-              modules={[Navigation, Pagination]}
-              pagination={{ clickable: true }}
-              autoplay={{ delay: 3000 }}
-              loop={true}
+              onSwiper={(swiper) => (swiperRef.current = swiper)}
               spaceBetween={40}
               slidesPerGroup={3}
+              speed={600}
               breakpoints={{
                 0: { slidesPerView: 1 },
                 640: { slidesPerView: 2 },

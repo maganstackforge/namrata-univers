@@ -1,7 +1,6 @@
 import 'aos/dist/aos.css'
-import AboutImage from '../assets/images/about_image.webp'
-import AboutStory from '../assets/images/about-story.webp'
-import AboutGoal from '../assets/images/about-goal.webp'
+import AboutStory from '../assets/images/about/about-story.webp'
+import AboutGoal from '../assets/images/about/about-goal.webp'
 export default function About() {
   return (
     <section
@@ -17,7 +16,14 @@ export default function About() {
           care about your success.
         </p>
 
-        <img src={AboutImage} alt='Unity Image' className='w-5xl object-cover' loading='lazy' />
+        <img
+          src='/about_image.webp'
+          alt='Team of Namrata Universal'
+          width={800}
+          height={600}
+          fetchPriority='high'
+          className='w-full max-w-5xl h-auto object-cover'
+        />
         <div className='-mt-10 mx-8 sm:mx-10 md:mx-16 xl:mx-28'>
           <div
             className='bg-white p-2 sm:p-4 md:p-6 flex flex-col items-center justify-center rounded-2xl
@@ -52,27 +58,43 @@ export default function About() {
       <div className='w-full flex flex-col md:flex-row items-center justify-center gap-8 mt-20'>
         <div className='w-full flex flex-col items-center justify-center'>
           <div className='' data-aos='flip-left'>
-            <img className='rounded-tl-2xl rounded-br-2xl' src={AboutStory} alt='About Story' />
+            <img
+              src={AboutStory}
+              alt='My journey into web development'
+              width={600}
+              height={400}
+              fetchPriority='high'
+              className='w-full rounded-tl-2xl rounded-br-2xl max-w-xl h-auto'
+            />
           </div>
           <div
-            className='bg-white p-4 md:-8 shadow-xl rounded-2xl -mt-20 mx-4 sm:mx-8 md:10'
+            className='bg-[#ddd] p-4 md:-8 shadow-xl rounded-2xl -mt-20 mx-4 sm:mx-8 md:10'
             data-aos='fade-up'
             data-aos-duration='3000'
           >
             <h2 className='text-2xl font-bold mb-5'>Our Story</h2>
             <p>
               Namrata Group has been serving clients in diverse fields for over 14 years through
-              <b>Namrata Health Care Pvt. Ltd</b>, <b>Namrata Wellness</b>, <b>Namrata Store</b>,
-              <b>Sylister Health Care Pvt. Ltd</b> and
-              <b>Jingle Holiday Bazar Pvt. Ltd.</b> Our objective is to take the business of our customers
-              forward through our products and services. The Namrata Universal is the complete IT Solution
-              Company and we welcome you to the world of Namrata Universal.
+              <b>
+                Namrata Health Care Pvt. Ltd, Namrata Wellness, Namrata Store, Sylister Health Care Pvt. Ltd
+                and Jingle Holiday Bazar Pvt. Ltd.
+              </b>
+              Our objective is to take the business of our customers forward through our products and
+              services. The Namrata Universal is the complete IT Solution Company and we welcome you to the
+              world of Namrata Universal.
             </p>
           </div>
         </div>
         <div className='w-full flex flex-col items-center justify-center'>
           <div className='' data-aos='flip-right'>
-            <img className='rounded-bl-2xl rounded-tr-2xl' src={AboutGoal} alt='Our Goal' />
+            <img
+              src={AboutGoal}
+              alt='Our Goal'
+              width={600}
+              height={400}
+              fetchPriority='high'
+              className='w-full rounded-bl-2xl rounded-tr-2xl max-w-xl h-auto'
+            />
           </div>
           <div
             className='bg-white p-4 md:p-9 shadow-xl rounded-2xl -mt-20 mx-4 sm:8 md:mx-10'

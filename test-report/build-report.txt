@@ -1,0 +1,127 @@
+user@DESKTOP-UVPBEK7 MINGW64 namrata-universal  (main)➜ npm run build
+
+> namratauniversal@0.0.0 build
+> vite build
+
+vite v7.3.5 building client environment for production...
+✓ 229 modules transformed.
+dist/index.html                                                 1.64 kB │ gzip:  0.68 kB
+dist/assets/client-10-DI2820JX.webp                             4.49 kB
+dist/assets/client-3-0RMyz0VI.webp                              4.70 kB
+dist/assets/digital-CU_XUpxz.webp                               4.76 kB
+dist/assets/logo-CqvXhxW-.webp                                  4.96 kB
+dist/assets/apd-BDfGs7YE.webp                                   6.01 kB
+dist/assets/client-25-Dg1avRHf.webp                             6.20 kB
+dist/assets/InternshipDevelopment-CF1ktilk.webp                 6.34 kB
+dist/assets/gd-D5yp1NSo.webp                                    6.59 kB
+dist/assets/client-21-CReG8pb6.webp                             7.34 kB
+dist/assets/InternshipContinueEducation-BtlwBfCX.webp           7.47 kB
+dist/assets/Preeti-ceo-BZ5GRU7G.webp                            7.50 kB
+dist/assets/client-15-DWZveeFA.webp                             7.65 kB
+dist/assets/mapd-D7sF2ZLQ.webp                                  7.66 kB
+dist/assets/suraj-_1doH37n.webp                                 7.99 kB
+dist/assets/Premlata Patel-C_z5eGzP.webp                        8.47 kB
+dist/assets/cuts-BdW9MRYM.webp                                  8.64 kB
+dist/assets/client-12-BIytjbsE.webp                             8.89 kB
+dist/assets/Mamta Rani-Va4vPrTD.webp                            9.03 kB
+dist/assets/Kritee Dixit-BoPbKjDi.webp                          9.81 kB
+dist/assets/Prateek Jaiswal-BdtZnXln.webp                      10.04 kB
+dist/assets/client-23-D-_xT6LA.webp                            10.72 kB
+dist/assets/about-story-CibE5GCl.webp                          11.01 kB
+dist/assets/about-goal-CgXzZ7gl.webp                           11.14 kB
+dist/assets/Saurabh-ceo-CEP3gwpX.webp                          12.21 kB
+dist/assets/InternshipTrainingAndConsultancy-2kEKzpzy.webp     13.24 kB
+dist/assets/client-24-DAJAU_EC.webp                            13.64 kB
+dist/assets/InternshipAdviceAndSupport-CmBnqmiL.webp           13.76 kB
+dist/assets/Ekaa Architects-wa9NA7Wh.webp                      13.87 kB
+dist/assets/client-17-BWnHqp1L.webp                            14.04 kB
+dist/assets/brajesh-ceo-DHn-frUk.webp                          14.48 kB
+dist/assets/portfolio-5-C2bSyoK6.webp                          15.23 kB
+dist/assets/client-13-JIVu67tf.webp                            17.85 kB
+dist/assets/Amit Tamang-Bold8bfk.webp                          18.20 kB
+dist/assets/portfolio-3-BwmvVN7S.webp                          18.72 kB
+dist/assets/client-16-b2uBkDe_.webp                            18.99 kB
+dist/assets/client-20-C5ALChyr.webp                            20.60 kB
+dist/assets/client-1-D9XdGT0G.webp                             21.28 kB
+dist/assets/client-14-D_FEDMrG.webp                            22.90 kB
+dist/assets/portfolio-4-DMaGRLsn.webp                          23.71 kB
+dist/assets/web1-L2ome1Mf.webp                                 24.61 kB
+dist/assets/portfolio-2-CrjPFD2s.webp                          25.19 kB
+dist/assets/client-11-B-b4JvYu.webp                            27.83 kB
+dist/assets/portfolio-6-Cur4fq7V.webp                          28.08 kB
+dist/assets/portfolio-1-QEXRieDg.webp                          29.11 kB
+dist/assets/Pricing3_Ecommerce-CbRZXEEI.webp                   38.01 kB
+dist/assets/client-26-CgOnUYjI.webp                            39.38 kB
+dist/assets/client-18-FuKO_KE5.webp                            42.42 kB
+dist/assets/Pricing1_Static-C83CwHc6.webp                      44.20 kB
+dist/assets/DigitalBanner7-DX18ppTa.webp                       46.85 kB
+dist/assets/Somya Gupta-Bc5l29B_.webp                          46.97 kB
+dist/assets/Pricing5_Seo-CrrEujCQ.webp                         49.40 kB
+dist/assets/DigitalBanner2-CPR_v6xP.webp                       50.10 kB
+dist/assets/Pricing6_DigitalMarketing-B76JQmad.webp            55.40 kB
+dist/assets/DigitalBanner12-4r8QBn8_.webp                      56.12 kB
+dist/assets/DigitalBanner8-BO6UDpgf.webp                       58.39 kB
+dist/assets/DigitalBanner10-BBDibbms.webp                      58.99 kB
+dist/assets/Pricing2_dynamic-DCBsYK0b.webp                     59.27 kB
+dist/assets/SeoRankingImage-D732DWba.webp                      59.37 kB
+dist/assets/DigitalBanner9-DIvWDS__.webp                       61.15 kB
+dist/assets/DigitalBanner11-DvUO2yIu.webp                      62.64 kB
+dist/assets/InternshipStudentsClass-V9L9llV3.webp              65.06 kB
+dist/assets/dgBanner1-2oxKqo5y.jpg                             67.52 kB
+dist/assets/client-9-D1ABTCFf.webp                             69.07 kB
+dist/assets/DigitalBanner5-Df7S8lvK.webp                       69.63 kB
+dist/assets/DigitalBanner4-BJlYRSU9.webp                       75.97 kB
+dist/assets/Pricing4_android-D7mt0O2E.webp                     79.50 kB
+dist/assets/digiBanner8-BE7wo0A5.webp                          84.09 kB
+dist/assets/DigitalBanner3-C03FkV9-.webp                       84.37 kB
+dist/assets/SeoHeroImage-DuZ1cnyQ.jpg                          91.49 kB
+dist/assets/DigitalBanner1-mCUTfLmb.webp                       98.66 kB
+dist/assets/DigitalBanner6-BsykuPrG.webp                      106.50 kB
+dist/assets/DigitalMarketingSecond3-DMs1r44b.webp             145.45 kB
+dist/assets/hero-video-CiMn9se-.mp4                         1,075.69 kB
+dist/assets/about-video-CUO4rIZf.mp4                        1,512.91 kB
+dist/assets/swiper-C2J0D0kV.css                                 4.67 kB │ gzip:  1.13 kB
+dist/assets/pagination-B4Wtlvr8.css                             8.73 kB │ gzip:  1.37 kB
+dist/assets/index-ipaWbRMb.css                                 58.79 kB │ gzip:  8.71 kB
+dist/assets/Saurabh-ceo-DN0l2LB0.js                             0.15 kB │ gzip:  0.13 kB
+dist/assets/NotFoundPage-DljoSD2-.js                            0.20 kB │ gzip:  0.18 kB
+dist/assets/AboutPage-Bl7vcsSd.js                               1.10 kB │ gzip:  0.53 kB
+dist/assets/MainTermOfSite-CpoS_JHm.js                          1.57 kB │ gzip:  0.78 kB
+dist/assets/MeetOurTeam-DhT3_aNP.js                             1.61 kB │ gzip:  0.79 kB
+dist/assets/PaymentPage-Be9s-frU.js                             1.71 kB │ gzip:  0.70 kB
+dist/assets/HomePage-7r5Pj9l4.js                                1.84 kB │ gzip:  0.79 kB
+dist/assets/ClientSkelton-q5Djhg2U.js                           2.28 kB │ gzip:  1.18 kB
+dist/assets/CallToAction-BaccpWkF.js                            2.49 kB │ gzip:  0.96 kB
+dist/assets/iconBase-LFa_nW27.js                                2.49 kB │ gzip:  1.07 kB
+dist/assets/index-BD_aEAXF.js                                   2.64 kB │ gzip:  1.03 kB
+dist/assets/Review-DB5GQqdv.js                                  3.08 kB │ gzip:  1.47 kB
+dist/assets/RefundPolicyPage-CAc98LPC.js                        3.49 kB │ gzip:  1.40 kB
+dist/assets/Service-CA2Pj-yE.js                                 3.88 kB │ gzip:  1.61 kB
+dist/assets/ContactPage-C3drWPmC.js                             3.96 kB │ gzip:  1.44 kB
+dist/assets/About-Cjne15pC.js                                   4.54 kB │ gzip:  1.70 kB
+dist/assets/TermsAndConditionPage-By5tyII3.js                   4.65 kB │ gzip:  1.69 kB
+dist/assets/PortfolioPage-CfSaNzh0.js                           4.76 kB │ gzip:  1.91 kB
+dist/assets/BlogPage-nPnqtm1K.js                                5.16 kB │ gzip:  1.97 kB
+dist/assets/ModernTechnologyPage-C-UemrTA.js                    5.92 kB │ gzip:  2.28 kB
+dist/assets/OurPricing-x21L1Wvw.js                              6.68 kB │ gzip:  2.09 kB
+dist/assets/SkillPage-q7IoDEv8.js                               7.00 kB │ gzip:  2.83 kB
+dist/assets/PrivacyPolicyPage-BXW6bCMv.js                       9.44 kB │ gzip:  3.22 kB
+dist/assets/SeoPage-D3PWh0nC.js                                 9.83 kB │ gzip:  3.21 kB
+dist/assets/seo-D9NAZxmY.js                                    10.41 kB │ gzip:  7.83 kB
+dist/assets/DigitalMarketingPage-CoDFBIyp.js                   19.37 kB │ gzip:  5.47 kB
+dist/assets/InternshipPage-DKmjZeB-.js                         19.84 kB │ gzip:  7.72 kB
+dist/assets/OurClients-B2kKIw3r.js                             32.88 kB │ gzip: 23.12 kB
+dist/assets/swiper-BGDhn5pE.js                                 82.21 kB │ gzip: 25.39 kB
+dist/assets/index-3VRFrpSG.js                                 267.74 kB │ gzip: 86.89 kB
+✓ built in 19.70s
+
+user@DESKTOP-UVPBEK7 MINGW64 namrata-universal  (main)➜ npm run preview
+
+> namratauniversal@0.0.0 preview
+> vite preview
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+

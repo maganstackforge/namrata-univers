@@ -1,5 +1,5 @@
 import React from 'react'
-import 'aos/dist/aos.css'
+
 import { FaUser, FaUsers, FaChartLine, FaCheck } from 'react-icons/fa'
 
 export default function CallToAction() {
@@ -47,7 +47,7 @@ export default function CallToAction() {
       id='CallToAction'
       className='section-container my-20 text-white flex flex-col items-center justify-center px-6 pt-6'
     >
-      <div className='w-full bg-[#6FA4AF] rounded-2xl'>
+      <div className='w-full bg-[#4D8D99] rounded-2xl'>
         {/* HEADER */}
         <div
           className='section-header aos-init max-w-6xl p-8 my-10 mx-auto flex flex-col justify-center
@@ -56,7 +56,7 @@ export default function CallToAction() {
           data-aos-easing='ease-out-cubic'
           data-aos-duration='2000'
         >
-          <h2 className='text-5xl font-bold my-5'>CALL TO ACTION</h2>
+          <h2 className='text-5xl font-bold my-5 bg-[#654AF]'>CALL TO ACTION</h2>
           <p className='text-2xl pb-6'>Please contact us for any queries.</p>
           <span className='bg-[#A2C3DC] rounded-b-2xl w-24 h-2'></span>
         </div>
@@ -66,7 +66,7 @@ export default function CallToAction() {
           {callButtons.map((btn) => (
             <a
               key={btn.id}
-              className={`p-6 bg-[#5E939E] text-white font-semibold text-center transition-all duration-300
+              className={`p-6 bg-[#5A95A0] text-white font-semibold text-center transition-all duration-300
               hover:bg-[#7FB5BF] hover:shadow-xl ${btn.style}`}
               href='tel:8506922777'
               data-aos='fade-up'

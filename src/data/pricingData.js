@@ -1,9 +1,9 @@
-import staticWebImages from '../assets/images/Pricing1_Static.webp'
-import dynamicWebImages from '../assets/images/Pricing2_dynamic.webp'
-import EcommerceWebImages from '../assets/images/Pricing3_Ecommerce.webp'
-import androidWebImages from '../assets/images/Pricing4_android.webp'
-import SEOWebImages from '../assets/images/Pricing5_Seo.webp'
-import digitalMarketingWebImages from '../assets/images/Pricing6_DigitalMarketing.webp'
+import staticWebImages from '../assets/images/pricing/Pricing1_Static.webp'
+import dynamicWebImages from '../assets/images/pricing/Pricing2_dynamic.webp'
+import EcommerceWebImages from '../assets/images/pricing/Pricing3_Ecommerce.webp'
+import androidWebImages from '../assets/images/pricing/Pricing4_android.webp'
+import SEOWebImages from '../assets/images/pricing/Pricing5_Seo.webp'
+import digitalMarketingWebImages from '../assets/images/pricing/Pricing6_DigitalMarketing.webp'
 
 const pricingData = [
   {

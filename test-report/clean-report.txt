@@ -1,0 +1,68 @@
+
+user@DESKTOP-UVPBEK7 MINGW64 namrata-universal  (main)➜ npm run clean
+
+> namratauniversal@0.0.0 clean
+> npm run lint:fix && npm run format:fix && npx prettier --check .
+
+
+> namratauniversal@0.0.0 lint:fix
+> eslint . --fix
+
+
+> namratauniversal@0.0.0 format:fix
+> prettier --write .
+
+.prettierrc 108ms (unchanged)
+eslint.config.js 133ms (unchanged)
+index.html 220ms (unchanged)
+package-lock.json 277ms (unchanged)
+package.json 9ms (unchanged)
+README.md 225ms (unchanged)
+src/App.jsx 258ms (unchanged)
+src/components/About.jsx 196ms (unchanged)
+src/components/AboutHeroSection.jsx 30ms (unchanged)
+src/components/CallToAction.jsx 176ms (unchanged)
+src/components/ClientSkelton.jsx 30ms (unchanged)
+src/components/Footer.jsx 153ms (unchanged)
+src/components/Header.jsx 73ms (unchanged)
+src/components/HeaderDesktopNav.jsx 84ms (unchanged)
+src/components/HeaderMobileMenu.jsx 65ms (unchanged)
+src/components/HeroSection.jsx 34ms (unchanged)
+src/components/MainTermOfSite.jsx 51ms (unchanged)
+src/components/MeetOurTeam.jsx 82ms (unchanged)
+src/components/Modal.jsx 81ms (unchanged)
+src/components/OurClients.jsx 96ms (unchanged)
+src/components/OurPricing.jsx 185ms (unchanged)
+src/components/Review.jsx 84ms (unchanged)
+src/components/Service.jsx 80ms (unchanged)
+src/context/ModalContext.jsx 45ms (unchanged)
+src/data/navData.js 38ms (unchanged)
+src/data/pricingData.js 122ms (unchanged)
+src/data/skillData.js 62ms (unchanged)
+src/data/sliderData.js 84ms (unchanged)
+src/hooks/useScaleOnScroll.js 17ms (unchanged)
+src/index.css 184ms (unchanged)
+src/layouts/Layout.jsx 11ms (unchanged)
+src/main.jsx 10ms (unchanged)
+src/pages/AboutPage.jsx 33ms (unchanged)
+src/pages/BlogPage.jsx 78ms (unchanged)
+src/pages/ContactPage.jsx 105ms (unchanged)
+src/pages/DigitalMarketingPage.jsx 157ms (unchanged)
+src/pages/HomePage.jsx 17ms (unchanged)
+src/pages/InternshipPage.jsx 100ms (unchanged)
+src/pages/ModernTechnologyPage.jsx 78ms (unchanged)
+src/pages/NotFoundPage.jsx 9ms (unchanged)
+src/pages/PaymentPage.jsx 45ms (unchanged)
+src/pages/PortfolioPage.jsx 81ms (unchanged)
+src/pages/PrivacyPolicyPage.jsx 152ms (unchanged)
+src/pages/RefundPolicyPage.jsx 64ms (unchanged)
+src/pages/SeoPage.jsx 162ms (unchanged)
+src/pages/SkillPage.jsx 77ms (unchanged)
+src/pages/TermsAndConditionPage.jsx 66ms (unchanged)
+src/tailwind.config.js 29ms (unchanged)
+vite.config.js 26ms (unchanged)
+Checking formatting...
+All matched files use Prettier code style!
+
+user@DESKTOP-UVPBEK7 MINGW64 namrata-universal  (main)➜ 
+

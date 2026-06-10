@@ -1,10 +1,9 @@
-import { lazy, Suspense } from 'react'
 import { useModal } from '../context/ModalContext'
 import useScaleOnScroll from '../hooks/useScaleOnScroll'
-
-const Logo = lazy(() => import('./HeaderLogo'))
-const DesktopNav = lazy(() => import('./HeaderDesktopNav'))
-const MobileMenu = lazy(() => import('./HeaderMobileMenu'))
+import LogoImg from '../assets/images/logo.webp'
+import DesktopNav from './HeaderDesktopNav'
+import MobileMenu from './HeaderMobileMenu'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   const { openModal, closeModal } = useModal()
@@ -25,15 +24,19 @@ export default function Header() {
     >
       <div className='flex justify-between items-center px-6'>
         {/* Logo */}
-        <Suspense fallback={<div className='w-12 h-6 bg-gray-200'></div>}>
-          <Logo />
-        </Suspense>
+        <Link to='/'>
+          <img
+            src={LogoImg}
+            alt='Namrata Universal company logo'
+            width={365}
+            height={85}
+            fetchPriority='high'
+            className='w-40 md:w-48 h-auto py-4'
+          />
+        </Link>
 
         {/* Desktop Navigation */}
-        <Suspense fallback={<div className='hidden md:block'>Loading...</div>}>
-          <DesktopNav />
-        </Suspense>
-
+        <DesktopNav />
         {/* Mobile Menu button */}
         <button
           onClick={handleMobileMenu}

@@ -5,8 +5,6 @@ import 'aos/dist/aos.css'
 import { ModalProvider } from './context/ModalContext'
 import Layout from './layouts/Layout'
 
-//  Lazy Loaded Components
-// const HeroSection = lazy(() => import('./components/HeroSection'))
 const HomePage = lazy(() => import('./pages/HomePage'))
 const AboutPage = lazy(() => import('./pages/AboutPage'))
 const Service = lazy(() => import('./components/Service'))
@@ -32,8 +30,9 @@ const NotFound = lazy(() => import('./pages/NotFoundPage'))
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 600,
       once: true,
+      disable: 'mobile',
     })
 
     AOS.refresh()

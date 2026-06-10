@@ -1,18 +1,13 @@
 import React from 'react'
-import 'aos/dist/aos.css'
-import BrajeshCeo from '../assets/images/brajesh-ceo.webp'
-import PreetiCeo from '../assets/images/Preeti-ceo.webp'
-import SaurabhCeo from '../assets/images/Saurabh-ceo.webp'
+
+import BrajeshCeo from '../assets/images/mainteam/brajesh-ceo.webp'
+import PreetiCeo from '../assets/images/mainteam/Preeti-ceo.webp'
+import SaurabhCeo from '../assets/images/mainteam/Saurabh-ceo.webp'
 export default function MainTermOfSite() {
   return (
     <section id='mainTeam' className='section-container flex items-center justify-center flex-col px-6 pt-6'>
       <div className='w-full flex flex-col justify-center items-center my-10'>
-        <div
-          className='aos-init text-center flex flex-col justify-center items-center my-10'
-          data-aos='flip-left'
-          data-aos-easing='ease-out-cubic'
-          data-aos-duration='2000'
-        >
+        <div className='text-center flex flex-col justify-center items-center my-10'>
           <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-5'>Main Team of Namrata Universal</h2>
           <p className='text-sm sm:text-xl md:text-2xl pb-6 text-center'>
             Our main team comprises passionate individuals from various backgrounds. From creative designers
@@ -30,7 +25,7 @@ export default function MainTermOfSite() {
           ].map((member) => (
             <div
               key={member.name}
-              className='text-center flex flex-col items-center bg-[#6FA4AF] rounded-t-full p-10 h-[400px]
+              className='text-center flex flex-col items-center bg-[#3E727C] rounded-t-full p-10 h-[400px]
                 text-white'
             >
               <img
@@ -40,7 +35,7 @@ export default function MainTermOfSite() {
                 loading='lazy'
               />
               <h1 className='text-xl font-bold'>{member.name}</h1>
-              <span className='text-gray-100'>{member.role}</span>
+              <span>{member.role}</span>
             </div>
           ))}
         </div>

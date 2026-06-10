@@ -2,12 +2,13 @@ import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import { useModal } from '../context/ModalContext'
 import { IoMdEye, IoMdOpen } from 'react-icons/io'
-import Portfolio1 from '../assets/images/portfolio-1.webp'
-import Portfolio2 from '../assets/images/portfolio-2.webp'
-import Portfolio3 from '../assets/images/portfolio-3.webp'
-import Portfolio4 from '../assets/images/portfolio-4.webp'
-import Portfolio5 from '../assets/images/portfolio-5.webp'
-import Portfolio6 from '../assets/images/portfolio-6.webp'
+import Portfolio1 from '../assets/images/portfolio/portfolio-1.webp'
+import Portfolio2 from '../assets/images/portfolio/portfolio-2.webp'
+import Portfolio3 from '../assets/images/portfolio/portfolio-3.webp'
+import Portfolio4 from '../assets/images/portfolio/portfolio-4.webp'
+import Portfolio5 from '../assets/images/portfolio/portfolio-5.webp'
+import Portfolio6 from '../assets/images/portfolio/portfolio-6.webp'
+
 export default function Portfolio() {
   const { openModal, closeModal } = useModal()
   const handleMobileMenu = () => {
