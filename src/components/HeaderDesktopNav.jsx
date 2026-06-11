@@ -6,7 +6,7 @@ export default function DesktopNav() {
   const [openDropdown, setOpenDropdown] = useState(null)
 
   return (
-    <nav className='hidden md:flex text-[#eee] relative'>
+    <nav className='hidden md:flex text-white relative'>
       {navMenu.map((menu, i) => (
         <div
           key={i}
