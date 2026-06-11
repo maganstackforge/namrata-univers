@@ -31,10 +31,12 @@ export default function MainTermOfSite() {
               <img
                 src={member.img}
                 alt={member.name}
-                className='w-60 h-60 object-cover rounded-full mb-4'
+                width='240'
+                height='240'
+                className='w-60 h-60 aspect-square object-cover rounded-full mb-4'
                 loading='lazy'
               />
-              <h1 className='text-xl font-bold'>{member.name}</h1>
+              <h3 className='text-xl font-bold'>{member.name}</h3>
               <span>{member.role}</span>
             </div>
           ))}

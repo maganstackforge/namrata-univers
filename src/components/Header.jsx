@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header
       id='header'
-      className={` sticky top-0 z-50 w-full bg-[#6FA4AF] backdrop-blur-md shadow-md transition-transform
+      className={` sticky top-0 z-50 w-full bg-[#4F7C8A] backdrop-blur-md shadow-md transition-transform
         duration-300 ease-out`}
       style={{
         transform: `scaleY(${scale})`,
@@ -40,7 +40,7 @@ export default function Header() {
         {/* Mobile Menu button */}
         <button
           onClick={handleMobileMenu}
-          className='cursor-pointer text-3xl rounded-md p-2 hover:bg-[#37778F] md:hidden text-white'
+          className='cursor-pointer text-3xl rounded-md p-2 hover:bg-[#2F5D6A] md:hidden text-white'
         >
           ☰
         </button>

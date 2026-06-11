@@ -5,9 +5,9 @@ import { FaUser, FaUsers, FaChartLine, FaCheck } from 'react-icons/fa'
 export default function CallToAction() {
   // Array for contact buttons
   const callButtons = [
-    { id: 1, text: 'CALL US @ 8506922777', style: 'rounded-tl-2xl' },
-    { id: 2, text: 'CALL US @ 8506922777', style: 'rounded-t-2xl' },
-    { id: 3, text: 'CALL US @ 8506922777', style: 'rounded-tr-2xl' },
+    { id: 1, text: 'Call Now' },
+    { id: 2, text: 'WhatsApp Us' },
+    { id: 3, text: 'Request Callback' },
   ]
 
   // Array for stats boxes
@@ -56,7 +56,7 @@ export default function CallToAction() {
           data-aos-easing='ease-out-cubic'
           data-aos-duration='2000'
         >
-          <h2 className='text-5xl font-bold my-5 bg-[#654AF]'>CALL TO ACTION</h2>
+          <h2 className='text-5xl font-bold my-5'>CALL TO ACTION</h2>
           <p className='text-2xl pb-6'>Please contact us for any queries.</p>
           <span className='bg-[#A2C3DC] rounded-b-2xl w-24 h-2'></span>
         </div>
@@ -66,11 +66,11 @@ export default function CallToAction() {
           {callButtons.map((btn) => (
             <a
               key={btn.id}
-              className={`p-6 bg-[#5A95A0] text-white font-semibold text-center transition-all duration-300
-              hover:bg-[#7FB5BF] hover:shadow-xl ${btn.style}`}
-              href='tel:8506922777'
-              data-aos='fade-up'
-              data-aos-duration='1000'
+              href={btn.link || 'tel:8506922777'}
+              aria-label='Call our company at 8506922777'
+              className={`px-6 py-4 bg-[#E6F2F4] text-[#2F6F7A] font-semibold text-center rounded-xl
+              transition-all duration-300 hover:text-[#245661] active:scale-95 hover:shadow-lg
+              focus:outline-none focus:ring-2 focus:ring-white`}
             >
               {btn.text}
             </a>
@@ -85,9 +85,9 @@ export default function CallToAction() {
           {stats.map((item) => (
             <div
               key={item.id}
-              className={`p-6 h-60 bg-[#5E939E] flex flex-col items-center justify-between text-center
-              ease-in-out transition-all duration-300 hover:shadow-2xl hover:scale-105 cursor-pointer
-              hover:bg-[#7FB5BF] ${item.style}`}
+              className={`p-6 h-60 bg-white text-[#2F6F7A] flex flex-col items-center justify-between
+              text-center ease-in-out transition-all duration-300 hover:shadow-2xl cursor-pointer
+              hover:text-[#245661] active:scale-95 ${item.style}`}
               data-aos='fade-up'
               data-aos-duration='2000'
             >

@@ -1,6 +1,7 @@
 import 'aos/dist/aos.css'
-import AboutStory from '../assets/images/about/about-story.webp'
-import AboutGoal from '../assets/images/about/about-goal.webp'
+import aboutStory from '../assets/images/about/about-story.webp'
+import aboutGoal from '../assets/images/about/about-goal.webp'
+import aboutImage from '../assets/images/about/about-image.webp'
 export default function About() {
   return (
     <section
@@ -17,11 +18,12 @@ export default function About() {
         </p>
 
         <img
-          src='/about_image.webp'
+          src={aboutImage}
           alt='Team of Namrata Universal'
-          width={800}
-          height={600}
-          fetchPriority='high'
+          width={840}
+          height={300}
+          loading='lazy'
+          decoding='async'
           className='w-full max-w-5xl h-auto object-cover'
         />
         <div className='-mt-10 mx-8 sm:mx-10 md:mx-16 xl:mx-28'>
@@ -59,7 +61,7 @@ export default function About() {
         <div className='w-full flex flex-col items-center justify-center'>
           <div className='' data-aos='flip-left'>
             <img
-              src={AboutStory}
+              src={aboutStory}
               alt='My journey into web development'
               width={600}
               height={400}
@@ -88,7 +90,7 @@ export default function About() {
         <div className='w-full flex flex-col items-center justify-center'>
           <div className='' data-aos='flip-right'>
             <img
-              src={AboutGoal}
+              src={aboutGoal}
               alt='Our Goal'
               width={600}
               height={400}

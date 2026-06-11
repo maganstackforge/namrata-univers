@@ -33,7 +33,7 @@ export default function Blog() {
     },
     {
       imgSrc: digitalImg,
-      linkHref: 'https://namratauniversal.com/DigitalMarketingService',
+      linkHref: '/DigitalMarketing',
       heading: 'Digital Marketing',
       description:
         'Digital marketing connect customers using internet and many types of digital platform such as: Search Engines, Websites, Social Media Marketing, Email Marketing, Mobile apps, Text messaging and Online promoting.',
@@ -61,7 +61,7 @@ export default function Blog() {
     },
     {
       imgSrc: seoImg,
-      linkHref: 'https://namratauniversal.com/SEOService',
+      linkHref: '/Seo',
       heading: 'SEO',
       description:
         'SEO stands for search engine optimization. Namrata Universal Provides best Search engine optimization services. SEO is the most common way of doing whatever it takes to help a site or piece of content position higher on Google.',
@@ -116,15 +116,19 @@ export default function Blog() {
               <div key={i} className='shadow-lg rounded-2xl'>
                 <div className='service-icon'>
                   <img
-                    className='mx-auto w-full h-40 rounded-t-2xl shadow-lg'
+                    className='mx-auto w-full h-auto object-cover rounded-t-2xl shadow-lg'
                     src={item.imgSrc}
                     alt={item.heading}
+                    width={500}
+                    height={500}
+                    loading='lazy'
+                    decoding='async'
                   />
                 </div>
                 <div className='p-2 py-4 text-center flex flex-col justify-center items-center'>
-                  <h4 className='text-xl text-center text-blue-900 p-6'>
+                  <h3 className='text-xl text-center text-blue-900 p-6'>
                     <a href={item.linkHref}>{item.heading}</a>
-                  </h4>
+                  </h3>
                   <p>{item.description}</p>
                 </div>
               </div>
