@@ -15,8 +15,8 @@ export default function Header() {
   return (
     <header
       id='header'
-      className={` sticky top-0 z-50 w-full bg-[#4F7C8A] backdrop-blur-md shadow-md transition-transform
-        duration-300 ease-out`}
+      className={` sticky top-0 z-50 w-full text-[#2F5560] bg-[#F2F8FA] backdrop-blur-md shadow-md
+        transition-transform duration-300 ease-out`}
       style={{
         transform: `scaleY(${scale})`,
         transformOrigin: 'top', // **important: bottom shrinking effect**
@@ -28,8 +28,8 @@ export default function Header() {
           <img
             src={LogoImg}
             alt='Namrata Universal company logo'
-            width={365}
-            height={85}
+            width={192}
+            height={45}
             fetchPriority='high'
             className='w-40 md:w-48 h-auto py-4'
           />
@@ -40,7 +40,8 @@ export default function Header() {
         {/* Mobile Menu button */}
         <button
           onClick={handleMobileMenu}
-          className='cursor-pointer text-3xl rounded-md p-2 hover:bg-[#2F5D6A] md:hidden text-white'
+          className='cursor-pointer text-3xl rounded-md p-2 bg-[#2F5560] hover:bg-[#4F7C8A] md:hidden
+            text-[#F2F8FA]'
         >
           ☰
         </button>

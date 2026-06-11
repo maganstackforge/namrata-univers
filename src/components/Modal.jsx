@@ -34,7 +34,7 @@ export default function Modal({ isOpen, setIsOpen, children }) {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`ease-in-out fixed top-23 right-0.5 max-w-72 grow rounded-lg bg-[#6FA4AF] shadow-lg
+        className={`ease-in-out fixed top-23 right-0.5 max-w-72 grow rounded-lg bg-[#F2F8FA] shadow-lg
           transition-transform duration-300 ${isOpen ? '' : 'translate-x-full'}`}
       >
         {children}

@@ -119,8 +119,8 @@ export default function Blog() {
                     className='mx-auto w-full h-auto object-cover rounded-t-2xl shadow-lg'
                     src={item.imgSrc}
                     alt={item.heading}
-                    width={500}
-                    height={500}
+                    width={300}
+                    height={300}
                     loading='lazy'
                     decoding='async'
                   />
