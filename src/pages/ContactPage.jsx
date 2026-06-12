@@ -1,6 +1,20 @@
 import { Helmet } from 'react-helmet-async'
 
 export default function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    const formData = new FormData(e.target)
+
+    const data = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      subject: formData.get('subject'),
+      message: formData.get('message'),
+    }
+
+    console.log(data)
+  }
   return (
     <>
       <Helmet>
@@ -9,7 +23,7 @@ export default function Contact() {
 
         <meta
           name='description'
-          content='Get in touch with Namrata Univers for web development, UI/UX design, SEO, and digital marketing services. Contact us for project inquiries, internships, and business solutions.'
+          content='Contact Namrata Univers for professional web development, UI/UX design, SEO, and digital marketing services. Get project quotes, internship inquiries, and business support.'
         />
 
         <meta
@@ -46,7 +60,8 @@ export default function Contact() {
           name='twitter:description'
           content='Reach out for project inquiries, internships, and IT services.'
         />
-
+        <meta property='og:site_name' content='Namrata Univers' />
+        <meta name='twitter:site' content='@yourhandle' />
         <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
       </Helmet>
       <section
@@ -68,40 +83,68 @@ export default function Contact() {
           </div>
 
           <div className='w-full flex justify-center flex-col md:flex-row mt-8'>
-            <div className='w-full flex flex-col gap-6 p-8 bg-[#fdfdfd] shadow-xl'>
-              <div className='flex justify-center items-center gap-8'>
-                <input
-                  type='text'
-                  placeholder='Your Name'
-                  className='w-full h-10 border-t-1 border-b-1 border-gray-300 focus:border-t-blue-500
-                    focus:border-b-blue-500 focus:outline-none transition-all duration-300'
-                />
-                <input
-                  type='email'
-                  placeholder='Your Email'
-                  className='w-full h-10 border-t-1 border-b-1 border-gray-300 focus:border-t-blue-500
-                    focus:border-b-blue-500 focus:outline-none transition-all duration-300'
-                />
-              </div>
-              <div className='flex flex-col justify-center items-center w-full gap-8'>
-                <input
-                  type='text'
-                  placeholder='Subject'
-                  className='h-10 border-t-1 border-b-1 border-gray-300 w-full focus:border-t-blue-500
-                    focus:border-b-blue-500 focus:outline-none transition-all duration-300'
-                />
-                <textarea
-                  placeholder='Message'
-                  className='w-full h-32 border-t-1 border-b-1 border-gray-300 focus:border-t-blue-500
-                    focus:border-b-blue-500 focus:outline-none transition-all duration-300'
-                ></textarea>
-              </div>
-              <button className='bg-gray-500 p-4 text-white'>Send Message</button>
-            </div>
+            <form onSubmit={handleSubmit} className='w-full flex flex-col gap-6 p-8 bg-[#fdfdfd] shadow-xl'>
+              <label htmlFor='name' className='sr-only'>
+                Name
+              </label>
+              <input
+                id='name'
+                name='name'
+                type='text'
+                required
+                autoComplete='name'
+                placeholder='Your Name'
+                className='w-full h-10 border-t border-b border-gray-300 focus:border-t-blue-500
+                  focus:border-b-blue-500 focus:outline-none transition-all duration-300'
+              />
+              <label htmlFor='email' className='sr-only'>
+                Email
+              </label>
+              <input
+                id='email'
+                name='email'
+                type='email'
+                required
+                autoComplete='email'
+                placeholder='Your Email'
+                className='w-full h-10 border-t border-b border-gray-300 focus:border-t-blue-500
+                  focus:border-b-blue-500 focus:outline-none transition-all duration-300'
+              />
+              <label htmlFor='subject' className='sr-only'>
+                Subject
+              </label>
+              <input
+                id='subject'
+                name='subject'
+                type='text'
+                required
+                autoComplete='off'
+                placeholder='Subject'
+                className='h-10 border-t border-b border-gray-300 w-full focus:border-t-blue-500
+                  focus:border-b-blue-500 focus:outline-none transition-all duration-300'
+              />
+
+              <label htmlFor='message' className='sr-only'>
+                Message
+              </label>
+              <textarea
+                id='message'
+                name='message'
+                required
+                autoComplete='off'
+                placeholder='Message'
+                className='w-full h-32 border-t border-b border-gray-300 focus:border-t-blue-500
+                  focus:border-b-blue-500 focus:outline-none transition-all duration-300'
+              ></textarea>
+
+              <button type='submit' className='bg-gray-500 p-4 text-white'>
+                Send Message
+              </button>
+            </form>
 
             <div className='w-full shadow-xl p-4'>
               <iframe
-                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.774499799178!2d77.366!3d28.680!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb6f1234567%3A0xabcdef123456789!2sPlot%20No-827%2C%20Shalimar%20Garden%20Extension-1%2C%20Ghaziabad!'
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.9173483464647!2d77.33258867216807!3d28.692118921777112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfa5209dd0bd3%3A0x5e398909af95ee80!2s827%2C%20Shalimar%20Garden%20Extension%20I%2C%20Shalimar%20Garden%2C%20Sahibabad%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201006!5e0!3m2!1sen!2sin!4v1781254369134!5m2!1sen!2sin'
                 width='100%'
                 height='400'
                 style={{ border: 0 }}

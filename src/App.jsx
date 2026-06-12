@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 import { lazy, Suspense, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import { useScrollToTop } from './hooks/useScrollToTop'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { ModalProvider } from './context/ModalContext'
 import Layout from './layouts/Layout'
-
 const HomePage = lazy(() => import('./pages/HomePage'))
 const AboutPage = lazy(() => import('./pages/AboutPage'))
 const Service = lazy(() => import('./components/Service'))
@@ -41,7 +41,8 @@ function App() {
       AOS.refresh()
     }, 500)
   }, [])
-
+  const { pathname } = useLocation()
+  useScrollToTop(pathname)
   return (
     <ModalProvider>
       <Suspense
