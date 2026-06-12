@@ -12,14 +12,14 @@ export default function About() {
         <h2 className='p-1 sm:p-2 md:p-3 text-4xl sm:text-5xl md:text-7xl font-bold'>About Us!</h2>
 
         <p className='text-sm ms:text-2xl md:text-3xl px-2 sm:px-4 md:px-6 text-center mb-10'>
-          At Namrata Universal We Deliver With Focus On Quality, Integrity And Long Term Relation. We have
+          At Namrata Univers We Deliver With Focus On Quality, Integrity And Long Term Relation. We have
           experienced professionals who understand that IT services is changing, and are true partners who
           care about your success.
         </p>
 
         <img
           src={aboutImage}
-          alt='Team of Namrata Universal'
+          alt='Team of Namrata Univers'
           width={840}
           height={300}
           loading='lazy'
@@ -35,7 +35,7 @@ export default function About() {
             data-aos-duration='5000'
           >
             <h2 className='text-xl md:text-3xl font-bold p-4'>
-              Welcome to the World of <span className='text-blue-600'>Namrata Universal</span>
+              Welcome to the World of <span className='text-blue-600'>Namrata Univers</span>
             </h2>
 
             <p className='leading-relaxed text-sm sm:text-sm md:text-base'>
@@ -82,8 +82,8 @@ export default function About() {
                 and Jingle Holiday Bazar Pvt. Ltd.
               </b>
               Our objective is to take the business of our customers forward through our products and
-              services. The Namrata Universal is the complete IT Solution Company and we welcome you to the
-              world of Namrata Universal.
+              services. The Namrata Univers is the complete IT Solution Company and we welcome you to the
+              world of Namrata Univers.
             </p>
           </div>
         </div>

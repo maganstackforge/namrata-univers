@@ -8,37 +8,51 @@ export default function Skill() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Our Skills | Namrata Universal</title>
+        <title>Our Skills | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Explore the technical skills of Namrata Universal including Web Development, React JS, JavaScript, Node.js, UI/UX Design, SEO, and Digital Marketing expertise.'
+          content='Explore the technical skills of Namrata Univers including Web Development, React JS, JavaScript, Node.js, UI/UX Design, SEO, and Digital Marketing expertise.'
         />
+
         <meta
           name='keywords'
-          content='Web Development Skills, React JS Skills, JavaScript Developer Skills, UI UX Skills, Node JS Skills, SEO Skills, Digital Marketing Skills, IT Company Skills, Namrata Universal Skills'
+          content='Web Development Skills, React JS Skills, JavaScript Developer Skills, UI UX Skills, Node JS Skills, SEO Skills, Digital Marketing Skills, IT Company Skills, Namrata Univers Skills'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='Our Skills | Namrata Universal' />
+        <meta property='og:title' content='Our Skills | Namrata Univers' />
+
         <meta
           property='og:description'
           content='Discover our technical expertise in web development, UI/UX design, SEO, and digital marketing.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/skills' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Our Skills | Namrata Universal' />
+
+        <meta name='twitter:title' content='Our Skills | Namrata Univers' />
+
         <meta
           name='twitter:description'
           content='Explore our expertise in React, Node.js, UI/UX, SEO, and modern web technologies.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/skills' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/skills' />
       </Helmet>
+
       <section
         id='ourPricing'
         className='section-container flex items-center justify-center flex-col px-6 pt-6'
@@ -63,7 +77,7 @@ export default function Skill() {
                 {/* Image + Price */}
                 {/* Features */}
                 <div
-                  className='p-4 sm:p-6 flex flex-col justify-center gap-2 service-detail aos-init'
+                  className='p-4 sm:p-6 flex flex-col justify-center gap-2 service-detail'
                   data-aos='flip-right'
                   data-aos-easing='ease-out-cubic'
                   data-aos-duration='2000'

@@ -1,50 +1,54 @@
 <p align="center">
   <img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge&logo=react"/>
-  <img src="https://img.shields.io/badge/Performance-Optimized-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Lighthouse-90%2B-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Vite-Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-Styling-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </p>
 
-# Namrata Universal Clone
+# Namrata Univers
 
-A modern and fully responsive business website clone inspired by Namrata Universal, built using React, Vite, and Tailwind CSS. This project focuses on clean UI design, reusable component architecture, smooth animations, responsive layouts, and frontend performance optimization.
+A modern, high-performance, and fully responsive business website inspired by Namrata Universal. Built using React, Vite, and Tailwind CSS, this project focuses on clean UI design, reusable component architecture, smooth animations, responsive layouts, and frontend performance optimization.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Performance-98%2F100-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Accessibility-100%2F100-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Best_Practices-100%2F100-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SEO-100%2F100-brightgreen?style=for-the-badge"/>
+</p>
 
 ---
 
-## ⚡ Highlights
+## ⚡ Project Highlights
 
-- Pixel-perfect UI cloning
-- Mobile-first responsive design
-- Optimized Lighthouse performance
-- Modular and reusable components
-- SEO-friendly React structure
+- **Pixel-Perfect UI:** Closely mirrors the original platform layout with precision.
+- **Mobile-First Engineering:** Fully adaptive across mobile, tablet, and desktop viewports.
+- **Top Audit Scores:** Achieved near-perfect Google Lighthouse / PageSpeed Insights evaluation.
+- **Clean Architecture:** Scalable, modular, and fully decoupled React component framework.
+- **SEO Ready:** Enhanced semantic HTML integration with proper metadata management.
 
 ---
 
 ## 🔗 Important Links
 
-🔗 Live Website: https://namrataunivers.netlify.app/
-💻 GitHub Profile: https://github.com/maganstackforge  
-📂 Project Repository: https://github.com/maganstackforge/namrata-universalgit remote -v  
-👤 LinkedIn: https://linkedin.com/in/maganstackforge  
-📧 Email: magan.stackforge@gmail.com
+- 🌐 **Live Website:** https://namrataunivers.netlify.app/
+- 📂 **GitHub Repository:** https://github.com/maganstackforge/namrata-univers
+- 💻 **GitHub Profile:** https://github.com/maganstackforge
+- 👤 **LinkedIn:** https://linkedin.com/in/maganstackforge
+- 📧 **Email:** magan.stackforge@gmail.com
 
 ---
 
-## 📸 Screenshots
+## 📸 Application Screenshots
 
-### Home Page
+### Home Page (Desktop)
 
 ![Home Page](./public/Screenshots/HomePage.webp)
 
-### About Page
+### About Page (Desktop & Mobile Layout)
 
 ![About Page](./public/Screenshots/AboutPage.webp)
-
-### About Mobile Page
-
 ![About Page Mobile](./public/Screenshots/AboutMobile.webp)
 
-### Internship Page
+### Internship Framework Page
 
 ![Internship Page](./public/Screenshots/InternshipPage.webp)
 
@@ -52,35 +56,90 @@ A modern and fully responsive business website clone inspired by Namrata Univers
 
 ## 📌 Features
 
-- Fully Responsive Design
-- Modern UI/UX
-- React Router Navigation
-- Smooth Scroll Animations using AOS
-- Swiper Sliders & Carousels
-- Loading Progress Bar
-- Reusable React Components
-- Optimized Image Handling
-- SEO Friendly Structure
-- Fast Build with Vite
+- **Fluid Layouts:** Uses Tailwind CSS grid and flexbox structures for smooth viewport scaling.
+- **Client-Side Routing:** Managed seamlessly through optimized `react-router-dom` workflows.
+- **Scroll Orchestration:** Accelerated component entry transitions utilizing AOS (Animation on Scroll).
+- **Interactive Layers:** Smooth, touch-responsive media carousels powered by Swiper.js APIs.
+- **Visual Feedback:** Global loading progress indicator seamlessly tracks route switches.
+- **Asset Pipeline:** Optimized WebP image rendering and compressed MP4 streams to protect bandwidth.
 
 ---
 
 ## 🎯 Key Learning Outcomes
 
-- Built reusable React component architecture
-- Implemented responsive layouts using Tailwind CSS
-- Practiced route-based code organization
-- Improved SEO using React Helmet
-- Optimized frontend performance and asset loading
+- Engineered a highly reusable and modular React component design pattern.
+- Implemented responsive mobile-first grid systems natively via Tailwind utility classes.
+- Practiced route-based asset and performance optimization configurations.
+- Integrated `react-helmet-async` to manage index crawling and search engine indexing.
+- Mastered advanced client-side core web vital auditing workflows.
 
 ---
 
-## 🧰 Tech Stack
+## 📊 Quality Assurance & Performance Reports
 
-### Frontend
+This project adheres to strict frontend coding standards and core web vital optimization. All data layers have been validated through local and live production benchmarks.
+
+> All performance metrics are measured on production build using Google Lighthouse under standard throttling conditions.
+
+### 💨 Google PageSpeed Insights (Lighthouse Metrics)
+
+The production distribution hosted on Netlify achieves near-perfect execution scores across both Desktop and Mobile environments.
+
+#### 💻 Desktop Environment Evaluation
+
+- **Performance Score:** 98/100
+- **First Contentful Paint (FCP):** 0.3 s | **Largest Contentful Paint (LCP):** 0.4 s
+- **Total Blocking Time (TBT):** 0 ms | **Cumulative Layout Shift (CLS):** 0
+
+<p align="center">
+  <img src="./reports/lighthouse-desktop.png" alt="Desktop PageSpeed Insights Score" width="100%">
+</p>
+
+#### 📱 Mobile Environment Evaluation
+
+- **Performance Score:** 98/100
+- **First Contentful Paint (FCP):** 1.2 s | **Largest Contentful Paint (LCP):** 1.5 s
+- **Total Blocking Time (TBT):** 0 ms | **Cumulative Layout Shift (CLS):** 0
+
+<p align="center">
+  <img src="./reports/lighthouse-mobile.png" alt="Mobile PageSpeed Insights Score" width="100%">
+</p>
+
+#### 📄 Verifiable PDF Audit Report
+
+- 📥 **Lighthouse Logs:** [Download Combined Desktop & Mobile Metrics Report (PDF)](./reports/PageSpeed_Insights.pdf)
+
+---
+
+### 📦 Production Build Summary (Vite Preview)
+
+The production asset generation pipeline runs smoothly without any tree-shaking failures or compilation anomalies.
+
+- 📄 **Full Report:** [View Complete Vite Compilation Summary (TXT)](./reports/build-report.txt)
+
+<p align="center">
+  <img src="./reports/build-preview.png" alt="Build Report Preview" width="100%">
+</p>
+
+---
+
+### 🧹 Code Quality Checks (ESLint + Prettier Format)
+
+Automated formatting frameworks ensure syntax safety and style normalization across all modules.
+
+- 📄 **Full Report:** [View Complete ESLint + Prettier Report (TXT)](./reports/clean-report.txt)
+
+<p align="center">
+  <img src="./reports/clean-preview.png" alt="Clean Report Preview" width="100%">
+</p>
+
+---
+
+## 🧰 Technical Stack Breakdown
+
+### Core Environment
 
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -88,48 +147,24 @@ A modern and fully responsive business website clone inspired by Namrata Univers
 - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
 - ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
----
-
-### Animation & UI
+### UI Libraries & Animation
 
 - ![AOS](https://img.shields.io/badge/AOS-Animation-orange?style=for-the-badge)
 - ![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white)
 - ![React Icons](https://img.shields.io/badge/React%20Icons-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
----
-
-### SEO & Optimization
+### SEO & Performance Hooking
 
 - ![React Helmet Async](https://img.shields.io/badge/React%20Helmet-20232A?style=for-the-badge&logo=react&logoColor=white)
 - ![Intersection Observer](https://img.shields.io/badge/Intersection%20Observer-FF6B6B?style=for-the-badge)
 
----
-
-### Tools & Deployment
-
-#### Version Control & Dev Tools
+### Tooling & Code Quality
 
 - ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 - ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-
----
-
-#### Development Environment
-
 - ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code)
 - ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
----
-
-#### Deployment
-
-- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 - ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-
----
-
-#### Code Quality
-
 - ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 - ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 - ![Vite Visualizer](https://img.shields.io/badge/Vite%20Visualizer-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -139,9 +174,18 @@ A modern and fully responsive business website clone inspired by Namrata Univers
 ## 📁 Project Structure
 
 ```bash
-NAMRATA_UNIVERSAL/
+namrata-univers/
 │
 ├── public/
+│
+├── reports/                 # Quality Assurance & Audit Reports (PDFs, Images & Logs)
+│   ├── PageSpeed_Insights.pdf
+│   ├── clean-report.txt
+│   ├── clean-preview.png
+│   ├── build-report.txt
+│   ├── build-preview.png
+│   ├── lighthouse-desktop.png
+│   └── lighthouse-mobile.png
 │
 ├── src/
 │   ├── assets/
@@ -149,169 +193,62 @@ NAMRATA_UNIVERSAL/
 │   │   ├── images/
 │   │   └── video/
 │   │
-│   ├── components/
-│   ├── context/
-│   ├── data/
-│   ├── hooks/
-│   ├── layouts/
-│   ├── pages/
+│   ├── components/          # Reusable presentation layouts
+│   ├── context/             # Global state definitions
+│   ├── data/                # Static object configurations
+│   ├── hooks/               # Custom hook controllers
+│   ├── layouts/             # Page structural boilerplate
+│   ├── pages/               # Routed target templates
 │   │
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
 │
-├── .gitignore
-├── .prettierrc.json
 ├── eslint.config.js
 ├── index.html
 ├── package.json
-├── package-lock.json
 ├── tailwind.config.js
-├── vite.config.js
-└── README.md
+└── vite.config.js
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup (Bash Terminal)
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/maganstackforge/namrata-universal.git
-```
-
-### 2️⃣ Navigate to Project Folder
+Run the following commands sequentially in your local environment shell:
 
 ```bash
-cd namrata-universal.clone
-```
+# 1. Clone the repository
+git clone https://github.com/maganstackforge/namrata-univers.git
 
-### 3️⃣ Install Dependencies
+# 2. Open the project folder
+cd namrata-univers
 
-```bash
+# 3. Install required packages
 npm install
-```
 
-### 4️⃣ Start Development Server
-
-```bash
+# 4. Start the local development server
 npm run dev
+
 ```
 
 ---
 
-## 📦 Production Commands
+## 🛠️ Project Build & Tools Commands
 
-### Build for Production
+Inside the project directory, you can also run these standard scripts:
 
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
----
-
-## 🧹 Linting
-
-### Check Lint Errors
-
-```bash
-npm run lint
-```
-
-### Auto Fix Lint Errors
-
-```bash
-npm run lint:fix
-```
-
----
-
-🎨 Libraries & Packages
-
-        | Package               | Purpose               |
-        | --------------------- | --------------------- |
-        | react-router-dom      | Routing               |
-        | swiper                | Sliders & carousels   |
-        | aos                   | Scroll animations     |
-        | lucide-react          | Icons                 |
-        | react-icons           | Icon library          |
-        | react-top-loading-bar | Top loading indicator |
-        | tailwindcss           | Utility-first CSS     |
-        | vite                  | Fast bundler          |
-
----
-
-## 📱 Responsive Design
-
-This website is optimized for:
-
-- Mobile Devices
-- Tablets
-- Laptops
-- Desktop Screens
-
----
-
-## ⚡ Performance Optimizations
-
-- Optimized WebP images
-- Compressed MP4 videos
-- Lazy asset loading
-- Responsive layouts
-- Reusable component architecture
-- Fast bundling with Vite
-- Optimized media rendering
-
----
-
-## 📊 Performance, Build & Code Quality Reports
-
----
-
-### 🧹 Code Quality Checks (ESLint + Prettier Format)
-
-📄 Full Report: [View Complete TXT Report](./test-report/clean-report.txt)
-
-#### Code Quality Preview
-
-![Clean Report Preview](./test-report/clean-preview.png)
-
----
-
-### 👀 Production Build and Preview (Vite Preview)
-
-📄 Full Report: [View Complete TXT Report](./test-report/build-report.txt)
-
-#### Build Preview
-
-![Clean Report Preview](./test-report/build-preview.png)
-
----
-
-### 📊 Lighthouse Audit
-
-📄 Full Report: [View Complete TXT Report](./test-report/lighthouse-report.pdf)
-
-#### Lighthouse Preview
-
-![Clean Report Preview](./test-report/lighthouse-preview.png)
-
----
+- `npm run build` — Compiles down the code and creates a production-ready bundle.
+- `npm run preview` — Locally starts the production build to test it before deploying.
+- `npm run lint` — Checks the code for any formatting issues or syntax errors.
+- `npm run lint:fix` — Automatically fixes basic formatting and styling errors.
 
 ## 👨‍💻 Author
 
-**Magan Singh**  
-Frontend Developer | React Developer
+Magan Singh
 
----
+Frontend Developer | React Developer
 
 ## 📄 License
 
-This project is created for educational and portfolio purposes only.
+This repository is built strictly for educational and portfolio presentation purposes.

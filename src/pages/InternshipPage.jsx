@@ -16,38 +16,51 @@ export default function Internship() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Internship Program | Namrata Universal</title>
+        <title>Internship Program | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Join Namrata Universal Internship Program and gain real-world experience in Web Development, Digital Marketing, and UI/UX Design. Build industry-ready skills with live projects.'
+          content='Join Namrata Univers Internship Program and gain real-world experience in Web Development, Digital Marketing, and UI/UX Design. Build industry-ready skills with live projects.'
         />
+
         <meta
           name='keywords'
-          content='Namrata Universal Internship, Web Development Internship, React Internship, Digital Marketing Internship, UI UX Internship, IT Internship India'
+          content='Namrata Univers Internship, Web Development Internship, React Internship, Digital Marketing Internship, UI UX Internship, IT Internship India'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
 
         {/* Robots */}
         <meta name='robots' content='index, follow' />
 
         {/* Open Graph (Facebook / LinkedIn) */}
-        <meta property='og:title' content='Internship Program | Namrata Universal' />
+        <meta property='og:title' content='Internship Program | Namrata Univers' />
+
         <meta
           property='og:description'
-          content='Join Namrata Universal Internship Program and work on real-world projects in Web Development, React, and Digital Marketing.'
+          content='Join Namrata Univers Internship Program and work on real-world projects in Web Development, React, and Digital Marketing.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/internship' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Internship Program | Namrata Universal' />
+
+        <meta name='twitter:title' content='Internship Program | Namrata Univers' />
+
         <meta
           name='twitter:description'
-          content='Apply for Namrata Universal Internship and gain hands-on industry experience in development and marketing.'
+          content='Apply for Namrata Univers Internship and gain hands-on industry experience in development and marketing.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/internship' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/internship' />
       </Helmet>
       <div className='w-full'>
         <div className='w-10/11 mx-auto mt-4'>
@@ -78,7 +91,7 @@ export default function Internship() {
 
           {/* Page Heading */}
           <div className='heading text-center mb-4'>
-            <h1 className='panel-title1 text-2xl font-bold'>Namrata Universal Internship Program</h1>
+            <h1 className='panel-title1 text-2xl font-bold'>Namrata Univers Internship Program</h1>
           </div>
 
           {/* Collapse Body */}
@@ -101,10 +114,10 @@ export default function Internship() {
 
               <div className='w-full' id='somet'>
                 <p>
-                  Namrata Universal provides the best internship program for students wanting to build a
-                  career in IT. Our program covers digital marketing, software development, web designing,
-                  mobile app development, SEO, and more. After completing the internship, you will be able to
-                  apply for jobs in top IT companies.
+                  Namrata Univers provides the best internship program for students wanting to build a career
+                  in IT. Our program covers digital marketing, software development, web designing, mobile app
+                  development, SEO, and more. After completing the internship, you will be able to apply for
+                  jobs in top IT companies.
                 </p>
               </div>
             </div>
@@ -114,7 +127,7 @@ export default function Internship() {
 
           {/* Eligibility */}
           <div className='panel-heading mt-4'>
-            <h4 className='text-2xl font-[500]'>Eligibility to be an Intern at Namrata Universal</h4>
+            <h4 className='text-2xl font-[500]'>Eligibility to be an Intern at Namrata Univers</h4>
           </div>
 
           <div className='panel-body'>
@@ -131,7 +144,7 @@ export default function Internship() {
           </div>
 
           <div className='panel-body'>
-            Namrata Universal offers internship/vocational programs for:
+            Namrata Univers offers internship/vocational programs for:
             <br />
             • 3 Months <br />
             • 6 Months <br />
@@ -168,7 +181,7 @@ export default function Internship() {
         </div>
         <div className='flex justify-center items-center w-full p-8 my-4 bg-[#A2C3DC]'>
           <span className='text-center text-2xl'>
-            Take one step ahead in your career with a certification from <strong>NAMRATA UNIVERSAL</strong> at
+            Take one step ahead in your career with a certification from <strong>Namrata Univers</strong> at
             <strong> NOIDA</strong>
           </span>
         </div>
@@ -179,7 +192,7 @@ export default function Internship() {
           {[
             {
               img: InternshipDevelopment,
-              name: 'Faculty Development Program. For more details kindly visit Namrata universal',
+              name: 'Faculty Development Program. For more details kindly visit Namrata Univers',
             },
             {
               img: InternshipContinueEducation,

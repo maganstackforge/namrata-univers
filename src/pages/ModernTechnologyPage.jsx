@@ -5,36 +5,49 @@ export default function ModernTechnology() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Modern Technologies | Namrata Universal</title>
+        <title>Modern Technologies | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Explore modern technologies at Namrata Universal including Web Development, React, Node.js, UI/UX Design, AI solutions, Cloud Computing, and Digital Innovation services.'
+          content='Explore modern technologies at Namrata Univers including Web Development, React, Node.js, UI/UX Design, AI solutions, Cloud Computing, and Digital Innovation services.'
         />
+
         <meta
           name='keywords'
-          content='Modern Technology, Web Development, React JS, Node JS, UI UX Design, Cloud Computing, AI Development, Digital Transformation, Namrata Universal Technologies'
+          content='Modern Technology, Web Development, React JS, Node JS, UI UX Design, Cloud Computing, AI Development, Digital Transformation, Namrata Univers Technologies'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
         {/* Open Graph (Facebook / LinkedIn) */}
-        <meta property='og:title' content='Modern Technologies | Namrata Universal' />
+        <meta property='og:title' content='Modern Technologies | Namrata Univers' />
+
         <meta
           property='og:description'
-          content='Discover advanced modern technologies used by Namrata Universal for building scalable web and digital solutions.'
+          content='Discover advanced modern technologies used by Namrata Univers for building scalable web and digital solutions.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/ModernTechnology' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Modern Technologies | Namrata Universal' />
+
+        <meta name='twitter:title' content='Modern Technologies | Namrata Univers' />
+
         <meta
           name='twitter:description'
-          content='Explore React, Node.js, UI/UX, AI, and cloud technologies used at Namrata Universal.'
+          content='Explore React, Node.js, UI/UX, AI, and cloud technologies used at Namrata Univers.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/modern-technology' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/ModernTechnology' />
       </Helmet>
       <section
         id='mainTeam'
@@ -43,7 +56,7 @@ export default function ModernTechnology() {
         <div className='px-2 sm:px-20 md:px-28 text-center py-4'>
           <h1 className='text-xl sm:text-3xl md:text6xl my-12'>MODERN TECHNOLOGY DEVELOPMENT</h1>
           <p className='text-sm sm:text-xl md:text-2xl'>
-            Namrata Universal is a renowned company leading the way in modern technology development. With
+            Namrata Univers is a renowned company leading the way in modern technology development. With
             cutting-edge innovations and a dedicated team of experts.
           </p>
         </div>

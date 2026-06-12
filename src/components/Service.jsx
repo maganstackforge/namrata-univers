@@ -14,7 +14,7 @@ export default function Service() {
       linkHref: 'https://namratauniversal.com/BusinessPortalDevelopment',
       heading: 'Business Portal Development',
       description:
-        'At Namrata Universal, we offer mobile-compliant Business Portal Development services leveraging a plethora of frameworks including Drupal, WordPress, Magento, AngularJS and much more.',
+        'At Namrata Univers, we offer mobile-compliant Business Portal Development services leveraging a plethora of frameworks including Drupal, WordPress, Magento, AngularJS and much more.',
     },
     {
       imgSrc: mapdImg,
@@ -63,7 +63,7 @@ export default function Service() {
       linkHref: '/Seo',
       heading: 'SEO',
       description:
-        'SEO stands for search engine optimization. Namrata Universal Provides best Search engine optimization services. SEO is the most common way of doing whatever it takes to help a site or piece of content position higher on Google.',
+        'SEO stands for search engine optimization. Namrata Univers Provides best Search engine optimization services. SEO is the most common way of doing whatever it takes to help a site or piece of content position higher on Google.',
     },
   ]
   return (

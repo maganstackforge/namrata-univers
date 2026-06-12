@@ -5,36 +5,49 @@ export default function Contact() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Contact Us | Namrata Universal</title>
+        <title>Contact Us | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Get in touch with Namrata Universal for web development, UI/UX design, SEO, and digital marketing services. Contact us for project inquiries, internships, and business solutions.'
+          content='Get in touch with Namrata Univers for web development, UI/UX design, SEO, and digital marketing services. Contact us for project inquiries, internships, and business solutions.'
         />
+
         <meta
           name='keywords'
-          content='Contact Namrata Universal, Web Development Contact, IT Company Contact, SEO Services Contact, Digital Marketing Agency Contact, Hire Developers, Project Inquiry'
+          content='Contact Namrata Univers, Web Development Contact, IT Company Contact, SEO Services Contact, Digital Marketing Agency Contact, Hire Developers, Project Inquiry'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
+        {/* Canonical URL */}
+        <link rel='canonical' href='https://namrataunivers.netlify.app/contact' />
+
         {/* Open Graph */}
-        <meta property='og:title' content='Contact Us | Namrata Universal' />
+        <meta property='og:title' content='Contact Us | Namrata Univers' />
+
         <meta
           property='og:description'
-          content='Contact Namrata Universal for web development, SEO, and digital marketing services.'
+          content='Contact Namrata Univers for web development, SEO, and digital marketing services.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/contact' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Contact Us | Namrata Universal' />
+
+        <meta name='twitter:title' content='Contact Us | Namrata Univers' />
+
         <meta
           name='twitter:description'
           content='Reach out for project inquiries, internships, and IT services.'
         />
 
-        {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/contact' />
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
       </Helmet>
       <section
         id='contact'
@@ -95,7 +108,7 @@ export default function Contact() {
                 allowFullScreen=''
                 loading='lazy'
                 referrerPolicy='no-referrer-when-downgrade'
-                title='Namrata Universal Ghaziabad Location'
+                title='Namrata Univers Ghaziabad Location'
               ></iframe>
             </div>
           </div>

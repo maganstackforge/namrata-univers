@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { lazy, Suspense, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { ModalProvider } from './context/ModalContext'
@@ -32,10 +33,13 @@ function App() {
     AOS.init({
       duration: 600,
       once: true,
-      disable: 'mobile',
+      // Arrow function hatakar direct width ka number de do
+      disable: 768,
     })
 
-    AOS.refresh()
+    setTimeout(() => {
+      AOS.refresh()
+    }, 500)
   }, [])
 
   return (

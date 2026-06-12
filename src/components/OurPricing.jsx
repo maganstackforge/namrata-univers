@@ -8,37 +8,51 @@ export default function OurPricing() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Pricing Plans | Namrata Universal</title>
+        <title>Pricing Plans | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Explore affordable pricing plans at Namrata Universal for Web Development, UI/UX Design, Digital Marketing, SEO services, and software solutions tailored for businesses and startups.'
+          content='Explore affordable pricing plans at Namrata Univers for Web Development, UI/UX Design, Digital Marketing, SEO services, and software solutions tailored for businesses and startups.'
         />
+
         <meta
           name='keywords'
-          content='Pricing Plans, Web Development Cost, UI UX Design Pricing, Digital Marketing Packages, SEO Pricing, IT Services Pricing, Software Development Cost, Namrata Universal Pricing'
+          content='Pricing Plans, Web Development Cost, UI UX Design Pricing, Digital Marketing Packages, SEO Pricing, IT Services Pricing, Software Development Cost, Namrata Univers Pricing'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='Pricing Plans | Namrata Universal' />
+        <meta property='og:title' content='Pricing Plans | Namrata Univers' />
+
         <meta
           property='og:description'
           content='Affordable IT service pricing for web development, SEO, UI/UX design, and digital marketing solutions.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/pricing' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Pricing Plans | Namrata Universal' />
+
+        <meta name='twitter:title' content='Pricing Plans | Namrata Univers' />
+
         <meta
           name='twitter:description'
           content='Check affordable pricing for web development, SEO, and digital marketing services.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/pricing' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/pricing' />
       </Helmet>
+
       <section
         id='ourPricing'
         className='section-container flex items-center justify-center flex-col px-6 pt-6'

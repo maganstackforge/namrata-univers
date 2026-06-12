@@ -27,7 +27,7 @@ export default function Header() {
         <Link to='/'>
           <img
             src={LogoImg}
-            alt='Namrata Universal company logo'
+            alt='Namrata Univers company logo'
             width={192}
             height={45}
             fetchPriority='high'

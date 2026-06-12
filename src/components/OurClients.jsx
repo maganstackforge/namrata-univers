@@ -79,7 +79,7 @@ export default function OurClients() {
       </div>
 
       {/*  IMPORTANT: ref attach karo */}
-      <div className='w-full sm:px-4' ref={ref}>
+      <div className='w-full sm:px-4 z-0' ref={ref}>
         {!inView && <ClientSkeleton />}
 
         {/*  SAFE RENDER (debug friendly) */}

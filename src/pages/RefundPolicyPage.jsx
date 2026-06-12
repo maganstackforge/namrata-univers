@@ -7,45 +7,51 @@ export default function RefundPolicy() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Refund Policy | Namrata Universal</title>
+        <title>Refund Policy | Namrata Univers</title>
 
         <meta
           name='description'
-          content='Read the Refund Policy of Namrata Universal for information regarding cancellations, refunds, payments, and service policies.'
+          content='Read the Refund Policy of Namrata Univers for information regarding cancellations, refunds, payments, and service policies.'
         />
 
         <meta
           name='keywords'
-          content='Refund Policy, Cancellation Policy, Payment Refund, Service Refund, Internship Refund Policy, Namrata Universal Refund Terms'
+          content='Refund Policy, Cancellation Policy, Payment Refund, Service Refund, Internship Refund Policy, Namrata Univers Refund Terms'
         />
 
-        <meta name='author' content='Namrata Universal' />
+        <meta name='author' content='Namrata Univers' />
 
         {/* Legal Pages SEO */}
         <meta name='robots' content='noindex, follow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='Refund Policy | Namrata Universal' />
+        <meta property='og:title' content='Refund Policy | Namrata Univers' />
 
         <meta
           property='og:description'
-          content='Understand the refund and cancellation policy for Namrata Universal services and internship programs.'
+          content='Understand the refund and cancellation policy for Namrata Univers services and internship programs.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/refund-policy' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
 
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary' />
 
-        <meta name='twitter:title' content='Refund Policy | Namrata Universal' />
+        <meta name='twitter:title' content='Refund Policy | Namrata Univers' />
 
         <meta
           name='twitter:description'
-          content='Read the refund and cancellation terms for services and training programs offered by Namrata Universal.'
+          content='Read the refund and cancellation terms for services and training programs offered by Namrata Univers.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/refund-policy' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/refund-policy' />
       </Helmet>
       <section id='CallToAction' className='section-container flex flex-col items-center justify-center px-6'>
         <div className='full sm:w-4/5 bg-gray-200 h-full py-16 mx-4'>

@@ -8,7 +8,7 @@ export default function MainTermOfSite() {
     <section id='mainTeam' className='section-container flex items-center justify-center flex-col px-6 pt-6'>
       <div className='w-full flex flex-col justify-center items-center my-10'>
         <div className='text-center flex flex-col justify-center items-center my-10'>
-          <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-5'>Main Team of Namrata Universal</h2>
+          <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-5'>Main Team of Namrata Univers</h2>
           <p className='text-sm sm:text-xl md:text-2xl pb-6 text-center'>
             Our main team comprises passionate individuals from various backgrounds. From creative designers
             to meticulous engineers and skilled marketers, we work together synergistically to deliver

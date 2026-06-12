@@ -1,12 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom' // 1. useNavigate ko import kiya
 
 export default function Footer() {
+  const navigate = useNavigate() // 2. Navigate function ko initialize kiya
+
   return (
-    <footer className='p-10 bg-[#222831]'>
-      <div
-        className='grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-8 p-8 justify-center
-          text-[#FFF5E4]'
-      >
+    <footer className='p-10 bg-[#2F5560] text-[#FFF5E4]'>
+      <div className='grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-8 p-8 justify-center'>
         {/* ABOUT US */}
         <div>
           <h3
@@ -27,9 +26,12 @@ export default function Footer() {
               { linkName: 'Team', link: '/MeetOurTeam' },
               { linkName: 'Skill', link: '/Skill' },
             ].map((item, i) => (
-              <li key={i} className='flex items-center gap-1 hover:text-white cursor-pointer'>
+              <li key={i} className='flex items-center gap-1 cursor-pointer'>
                 <span className='text-lg'>›</span>{' '}
-                <Link to={item.link} className='hover:border-b-2 hover:border-[#FFF5E4]'>
+                <Link
+                  to={item.link}
+                  className='hover:underline hover:underline-offset-4 decoration-2 decoration-[#FFF5E4]'
+                >
                   {item.linkName}
                 </Link>
               </li>
@@ -56,7 +58,10 @@ export default function Footer() {
             ].map((item, i) => (
               <li key={i} className='flex items-center gap-2 cursor-pointer'>
                 <span className='text-lg font-bold'>›</span>
-                <Link to={item.link} className='hover:border-b-2 hover:border-[#FFF5E4]'>
+                <Link
+                  to={item.link}
+                  className='hover:underline hover:underline-offset-4 decoration-2 decoration-[#FFF5E4]'
+                >
                   {item.linkName}
                 </Link>
               </li>
@@ -126,7 +131,13 @@ export default function Footer() {
               </a>
             </p>
           </div>
-          <button className='mt-4 bg-[#2d5c4a] hover:bg-[#1f4034] px-5 py-2 rounded-md text-white font-medium'>
+
+          {/* 3. Button par onClick listener lagaya */}
+          <button
+            onClick={() => navigate('/Payment')}
+            className='mt-4 bg-[#3d7a62] cursor-pointer hover:bg-[#2d5c4a] px-5 py-2 rounded-md text-white
+              font-medium'
+          >
             PAY NOW !
           </button>
         </div>
@@ -134,15 +145,13 @@ export default function Footer() {
 
       {/* Scroll to top arrow */}
       <div className='fixed bottom-5 right-5'>
-        <a href='#' className='bg-[#6FA4AF] hover:bg-[#5E939E] p-3 rounded-full inline-block'>
+        <a href='#' className='bg-[#3d7a62] hover:bg-[#2d5c4a] p-3 rounded-full inline-block'>
           <span className='text-white text-2xl font-bold'>↑</span>
         </a>
       </div>
-      <div
-        className='flex flex-col md:flex-row items-center justify-center md:justify-between h-24
-          text-[#FFF5E4]'
-      >
-        <p>Copyright © 2025 Namrata Universal All Rights Reserved.</p>
+
+      <div className='flex flex-col md:flex-row items-center justify-center md:justify-between h-24'>
+        <p>Copyright © 2025 Namrata Univers All Rights Reserved.</p>
         <p>Design by Magan Singh.</p>
       </div>
     </footer>

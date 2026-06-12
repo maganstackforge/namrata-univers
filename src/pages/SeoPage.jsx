@@ -7,37 +7,51 @@ export default function Seo() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>SEO Services | Namrata Universal</title>
+        <title>SEO Services | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Improve your website ranking with Namrata Universal SEO services including On-Page SEO, Off-Page SEO, Technical SEO, Keyword Research, and Link Building strategies.'
+          content='Improve your website ranking with Namrata Univers SEO services including On-Page SEO, Off-Page SEO, Technical SEO, Keyword Research, and Link Building strategies.'
         />
+
         <meta
           name='keywords'
-          content='SEO Services, Search Engine Optimization, On Page SEO, Off Page SEO, Technical SEO, Keyword Research, Link Building, Digital Marketing SEO, Namrata Universal SEO'
+          content='SEO Services, Search Engine Optimization, On Page SEO, Off Page SEO, Technical SEO, Keyword Research, Link Building, Digital Marketing SEO, Namrata Univers SEO'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='SEO Services | Namrata Universal' />
+        <meta property='og:title' content='SEO Services | Namrata Univers' />
+
         <meta
           property='og:description'
           content='Rank your website on Google with professional SEO services including on-page, off-page, and technical SEO.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/seo-services' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='SEO Services | Namrata Universal' />
+
+        <meta name='twitter:title' content='SEO Services | Namrata Univers' />
+
         <meta
           name='twitter:description'
           content='Professional SEO services to improve Google ranking, traffic, and online visibility.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/seo-services' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/seo-services' />
       </Helmet>
+
       <section id='digitalMarketing' className='flex items-center justify-center flex-col'>
         <img
           src={SeoHeroImage}

@@ -6,33 +6,48 @@ export default function Pay() {
     <>
       {/* SEO */}
       <Helmet>
-        <title>Payment | Namrata Universal</title>
+        <title>Payment | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Secure payment page for Namrata Universal services including web development, digital marketing, internship programs, and training courses.'
+          content='Secure payment page for Namrata Univers services including web development, digital marketing, internship programs, and training courses.'
         />
+
         <meta
           name='keywords'
-          content='Payment, Online Payment, Internship Fee, Web Development Payment, Digital Marketing Payment, Namrata Universal Payment'
+          content='Payment, Online Payment, Internship Fee, Web Development Payment, Digital Marketing Payment, Namrata Univers Payment'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
+
+        {/* Keep payment pages out of search results */}
         <meta name='robots' content='noindex, nofollow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='Payment | Namrata Universal' />
+        <meta property='og:title' content='Payment | Namrata Univers' />
+
         <meta
           property='og:description'
           content='Secure payment portal for services and internship programs.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/pay' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Payment | Namrata Universal' />
+
+        <meta name='twitter:title' content='Payment | Namrata Univers' />
+
         <meta name='twitter:description' content='Make secure payments for services and training programs.' />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical */}
-        <link rel='canonical' href='https://your-domain.com/pay' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/pay' />
       </Helmet>
 
       {/* Page UI */}

@@ -31,35 +31,35 @@ export default function Review() {
       name: 'Somya Gupta',
       role: 'BUSINESSWOMAN',
       review:
-        'We hired NAMRATA UNIVERSAL for website develop & designing and the rate was also in our budget. His ideas were new and fresh, nice web site design by NAMRATA UNIVERSAL.',
+        'We hired Namrata Univers for website develop & designing and the rate was also in our budget. His ideas were new and fresh, nice web site design by Namrata Univers.',
     },
     {
       img: Amit,
       name: 'Amit Tamang',
       role: 'BUSINESSMAN',
       review:
-        'Guys, this is the best company for website designing. I am very grateful towards Namrata Universal for your good work and support. Thank you mam.',
+        'Guys, this is the best company for website designing. I am very grateful towards Namrata Univers for your good work and support. Thank you mam.',
     },
     {
       img: Suraj,
       name: 'Suraj',
       role: 'HUMAN',
       review:
-        'Namrata Universal are the best website creators I have ever seen, and I would suggest more and more people for website designing.',
+        'Namrata Univers are the best website creators I have ever seen, and I would suggest more and more people for website designing.',
     },
     {
       img: Premlata,
       name: 'Premlata Patel',
       role: 'WOMAN',
       review:
-        'Namrata Universal is a good organization with very helpful staff. I am very happy because they are always available and reply your message and calls.',
+        'Namrata Univers is a good organization with very helpful staff. I am very happy because they are always available and reply your message and calls.',
     },
     {
       img: Mamta,
       name: 'Mumta Rani',
       role: 'BUSINESSWOMAN',
       review:
-        'Nice experience with NAMRATA UNIVERSAL. Really satisfied with services. I can say this is top website design company in Noida.',
+        'Nice experience with Namrata Univers. Really satisfied with services. I can say this is top website design company in Noida.',
     },
     {
       img: Ekaa,
@@ -72,7 +72,7 @@ export default function Review() {
       name: 'Kritee Dixit',
       role: 'BUSINESSWOMAN',
       review:
-        'What a Team! NAMRATA UNIVERSAL really good service provider - completely down to earth. Completely satisfied with your service.',
+        'What a Team! Namrata Univers really good service provider - completely down to earth. Completely satisfied with your service.',
     },
   ]
   return (
@@ -84,7 +84,7 @@ export default function Review() {
         <h2 className='text-5xl font-bold my-5'>Reviews</h2>
       </div>
 
-      <div className='w-full p-8' ref={ref}>
+      <div className='w-full p-8 z-0' ref={ref}>
         {!inView && <ClientSkeleton />}
 
         {inView && (

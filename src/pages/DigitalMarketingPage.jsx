@@ -16,36 +16,49 @@ export default function DigitalMarketing() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Digital Marketing Services | Namrata Universal</title>
+        <title>Digital Marketing Services | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Grow your business with Namrata Universal Digital Marketing services including SEO, Social Media Marketing, Google Ads, Content Marketing, and Online Branding strategies.'
+          content='Grow your business with Namrata Univers Digital Marketing services including SEO, Social Media Marketing, Google Ads, Content Marketing, and Online Branding strategies.'
         />
+
         <meta
           name='keywords'
-          content='Digital Marketing, SEO Services, Social Media Marketing, Google Ads, Online Marketing, Content Marketing, Namrata Universal Digital Marketing'
+          content='Digital Marketing, SEO Services, Social Media Marketing, Google Ads, Online Marketing, Content Marketing, Namrata Univers Digital Marketing'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='Digital Marketing Services | Namrata Universal' />
+        <meta property='og:title' content='Digital Marketing Services | Namrata Univers' />
+
         <meta
           property='og:description'
           content='Boost your online presence with expert digital marketing services including SEO, PPC, and social media marketing.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/digital-marketing' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Digital Marketing Services | Namrata Universal' />
+
+        <meta name='twitter:title' content='Digital Marketing Services | Namrata Univers' />
+
         <meta
           name='twitter:description'
           content='Professional SEO, Google Ads, and social media marketing services to grow your business online.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://namratauniversal.com/digital-marketing' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/digital-marketing' />
       </Helmet>
       <section id='digitalMarketing' className='flex items-center justify-center flex-col'>
         <div className='w-full flex flex-col justify-center'>

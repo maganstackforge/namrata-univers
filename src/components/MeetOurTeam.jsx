@@ -13,7 +13,7 @@ export default function MeetOurTeam() {
         <div className='text-center flex flex-col justify-center items-center my-10'>
           <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-5'>MEET OUR TEAM</h2>
           <p className='text-sm sm:text-xl md:text-2xl pb-6 text-center'>
-            We the members of Namrata Universal team are well skilled, professional and dedicated to our work
+            We the members of Namrata Univers team are well skilled, professional and dedicated to our work
             and always stay ready to provide the best IT services to our clients. We understand the need of IT
             services and work together to grow business and satisfy our clients.
           </p>

@@ -18,36 +18,49 @@ export default function Portfolio() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Our Portfolio | Namrata Universal</title>
+        <title>Our Portfolio | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Explore Namrata Universal portfolio showcasing web development projects, UI/UX designs, mobile applications, and digital solutions built for clients and businesses.'
+          content='Explore Namrata Univers portfolio showcasing web development projects, UI/UX designs, mobile applications, and digital solutions built for clients and businesses.'
         />
+
         <meta
           name='keywords'
-          content='Portfolio, Web Development Projects, UI UX Design Portfolio, React Projects, Mobile App Projects, Digital Marketing Work, IT Company Portfolio, Namrata Universal Projects'
+          content='Portfolio, Web Development Projects, UI UX Design Portfolio, React Projects, Mobile App Projects, Digital Marketing Work, IT Company Portfolio, Namrata Univers Projects'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='Our Portfolio | Namrata Universal' />
+        <meta property='og:title' content='Our Portfolio | Namrata Univers' />
+
         <meta
           property='og:description'
           content='Check out our latest web development, UI/UX, and digital marketing projects built for real clients.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/portfolio' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Our Portfolio | Namrata Universal' />
+
+        <meta name='twitter:title' content='Our Portfolio | Namrata Univers' />
+
         <meta
           name='twitter:description'
           content='Explore real-world projects in web development, React, and digital marketing.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/portfolio' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/portfolio' />
       </Helmet>
       <section
         id='portfolio'

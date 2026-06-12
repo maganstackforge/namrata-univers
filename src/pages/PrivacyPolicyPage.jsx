@@ -6,45 +6,51 @@ export default function PrivacyPolicy() {
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Privacy Policy | Namrata Universal</title>
+        <title>Privacy Policy | Namrata Univers</title>
 
         <meta
           name='description'
-          content='Read the Privacy Policy of Namrata Universal to understand how we collect, use, and protect user information and data.'
+          content='Read the Privacy Policy of Namrata Univers to understand how we collect, use, and protect user information and data.'
         />
 
         <meta
           name='keywords'
-          content='Privacy Policy, User Data Protection, Website Privacy, Data Security, Namrata Universal Privacy Policy'
+          content='Privacy Policy, User Data Protection, Website Privacy, Data Security, Namrata Univers Privacy Policy'
         />
 
-        <meta name='author' content='Namrata Universal' />
+        <meta name='author' content='Namrata Univers' />
 
         {/* Legal Pages SEO */}
         <meta name='robots' content='noindex, follow' />
 
         {/* Open Graph */}
-        <meta property='og:title' content='Privacy Policy | Namrata Universal' />
+        <meta property='og:title' content='Privacy Policy | Namrata Univers' />
 
         <meta
           property='og:description'
-          content='Learn how Namrata Universal collects, uses, and protects your personal information.'
+          content='Learn how Namrata Univers collects, uses, and protects your personal information.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/privacy-policy' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
 
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary' />
 
-        <meta name='twitter:title' content='Privacy Policy | Namrata Universal' />
+        <meta name='twitter:title' content='Privacy Policy | Namrata Univers' />
 
         <meta
           name='twitter:description'
-          content='Read the privacy practices and data protection policy of Namrata Universal.'
+          content='Read the privacy practices and data protection policy of Namrata Univers.'
         />
 
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/privacy-policy' />
+        <link rel='canonical' href='https://namrataunivers.netlify.app/privacy-policy' />
       </Helmet>
       <section id='CallToAction' className='flex flex-col items-center justify-center px-6'>
         <div className='full sm:w-4/5 bg-gray-200 h-full py-16 mx-4'>

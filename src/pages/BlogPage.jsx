@@ -15,7 +15,7 @@ export default function Blog() {
       linkHref: 'https://namratauniversal.com/BusinessPortalDevelopment',
       heading: 'Business Portal Development',
       description:
-        'At Namrata Universal, we offer mobile-compliant Business Portal Development services leveraging a plethora of frameworks including Drupal, WordPress, Magento, AngularJS and much more.',
+        'At Namrata Univers, we offer mobile-compliant Business Portal Development services leveraging a plethora of frameworks including Drupal, WordPress, Magento, AngularJS and much more.',
     },
     {
       imgSrc: mapdImg,
@@ -64,51 +64,64 @@ export default function Blog() {
       linkHref: '/Seo',
       heading: 'SEO',
       description:
-        'SEO stands for search engine optimization. Namrata Universal Provides best Search engine optimization services. SEO is the most common way of doing whatever it takes to help a site or piece of content position higher on Google.',
+        'SEO stands for search engine optimization. Namrata Univers Provides best Search engine optimization services. SEO is the most common way of doing whatever it takes to help a site or piece of content position higher on Google.',
     },
   ]
   return (
     <>
       <Helmet>
         {/* Primary SEO */}
-        <title>Blog | Namrata Universal</title>
+        <title>Blog | Namrata Univers</title>
+
         <meta
           name='description'
-          content='Read the latest blogs from Namrata Universal on Web Development, React JS, UI/UX Design, SEO, Digital Marketing, and modern IT technologies.'
+          content='Read the latest blogs from Namrata Univers on Web Development, React JS, UI/UX Design, SEO, Digital Marketing, and modern IT technologies.'
         />
+
         <meta
           name='keywords'
-          content='Tech Blog, Web Development Blog, React JS Blog, UI UX Design Articles, SEO Tips, Digital Marketing Blog, IT Company Blog, Programming Tutorials, Namrata Universal Blog'
+          content='Tech Blog, Web Development Blog, React JS Blog, UI UX Design Articles, SEO Tips, Digital Marketing Blog, IT Company Blog, Programming Tutorials, Namrata Univers Blog'
         />
-        <meta name='author' content='Namrata Universal' />
+
+        <meta name='author' content='Namrata Univers' />
         <meta name='robots' content='index, follow' />
 
+        {/* Canonical URL */}
+        <link rel='canonical' href='https://namrataunivers.netlify.app/blog' />
+
         {/* Open Graph */}
-        <meta property='og:title' content='Blog | Namrata Universal' />
+        <meta property='og:title' content='Blog | Namrata Univers' />
+
         <meta
           property='og:description'
-          content='Explore articles on web development, React, SEO, and digital marketing from Namrata Universal.'
+          content='Explore articles on web development, React, SEO, and digital marketing from Namrata Univers.'
         />
+
+        <meta property='og:url' content='https://namrataunivers.netlify.app/blog' />
+
+        <meta property='og:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
+
         <meta property='og:type' content='website' />
 
         {/* Twitter Card */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content='Blog | Namrata Universal' />
+
+        <meta name='twitter:title' content='Blog | Namrata Univers' />
+
         <meta
           name='twitter:description'
-          content='Read tech articles, tutorials, and industry insights from Namrata Universal.'
+          content='Read tech articles, tutorials, and industry insights from Namrata Univers.'
         />
 
-        {/* Canonical URL */}
-        <link rel='canonical' href='https://your-domain.com/blog' />
+        <meta name='twitter:image' content='https://namrataunivers.netlify.app/og-image.jpg' />
       </Helmet>
       <section id='service' className='section-container flex items-center justify-center flex-col px-6 pt-6'>
         <div className='w-full'>
           <div className='section-header aos-init px- py-8 flex flex-col justify-center items-center'>
-            <h2 className='text-4xl sm:text-5xl font-bold my-5'>Namrata Universal Blog Page</h2>
+            <h2 className='text-4xl sm:text-5xl font-bold my-5'>Namrata Univers Blog Page</h2>
             <p className='text-xl sm:text-2xl text-center'>
               “Stay updated with the latest insights in Web Development, UI/UX, SEO, and Digital Marketing.
-              Learn, grow, and explore modern technologies with Namrata Universal blogs.”
+              Learn, grow, and explore modern technologies with Namrata Univers blogs.”
             </p>
           </div>
           <div className='grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6 p-6'>
