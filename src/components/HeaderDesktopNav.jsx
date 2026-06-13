@@ -17,7 +17,7 @@ export default function DesktopNav() {
           {/* Main menu item */}
           <Link
             to={menu.href}
-            className='py-6 hover:h-full md:px-4 transition-colors duration-200 group hover:bg-[#E3F0F4]
+            className='py-6.5 hover:h-full md:px-4 transition-colors duration-200 group hover:bg-[#E3F0F4]
               active:bg-[#D7E9EE]'
           >
             {menu.label}
