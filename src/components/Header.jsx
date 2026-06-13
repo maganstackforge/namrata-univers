@@ -9,21 +9,27 @@ export default function Header() {
   const { openModal, closeModal } = useModal()
   const scale = useScaleOnScroll()
   const handleMobileMenu = () => {
-    openModal(<MobileMenu closeModal={closeModal} />)
+    // Clean trigger function with dynamic slot parameters
+    openModal(
+      /* Parameter 1: Pure Content Layout Definition */
+      <MobileMenu closeModal={closeModal} />,
+      /* Parameter 2: Absolute Sidebar Right Dock Styling Classes */
+      `top-23 right-0.5 h-auto max-w-72 w-full grow rounded-lg`
+    )
   }
 
   return (
     <header
       id='header'
-      className={` sticky top-0 z-50 w-full text-[#2F5560] bg-[#F2F8FA] backdrop-blur-md shadow-md
+      className={`sticky top-0 z-50 w-full text-[#2F5560] bg-[#F2F8FA] backdrop-blur-md shadow-md
         transition-transform duration-300 ease-out`}
       style={{
         transform: `scaleY(${scale})`,
         transformOrigin: 'top', // **important: bottom shrinking effect**
       }}
     >
-      <div className='flex justify-between items-center px-6'>
-        {/* Logo */}
+      <div className='flex justify-between items-center px-3'>
+        {/* Logo Element Block */}
         <Link to='/'>
           <img
             src={LogoImg}
@@ -31,13 +37,14 @@ export default function Header() {
             width={192}
             height={45}
             fetchPriority='high'
-            className='w-40 md:w-48 h-auto py-4'
+            className='w-36 h-auto py-5'
           />
         </Link>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Navigation Link Nodes */}
         <DesktopNav />
-        {/* Mobile Menu button */}
+
+        {/* Mobile Menu Action Trigger Button */}
         <button
           onClick={handleMobileMenu}
           className='cursor-pointer text-3xl rounded-md p-2 bg-[#2F5560] hover:bg-[#4F7C8A] md:hidden

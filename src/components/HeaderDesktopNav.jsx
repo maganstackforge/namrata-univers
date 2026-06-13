@@ -17,7 +17,7 @@ export default function DesktopNav() {
           {/* Main menu item */}
           <Link
             to={menu.href}
-            className='p-7 hover:h-full md:px-4 transition-colors duration-200 group hover:bg-[#E3F0F4]
+            className='py-6 hover:h-full md:px-4 transition-colors duration-200 group hover:bg-[#E3F0F4]
               active:bg-[#D7E9EE]'
           >
             {menu.label}
@@ -25,7 +25,7 @@ export default function DesktopNav() {
 
           {/* Dropdown menu (only if submenu exists) */}
           {menu.submenu && openDropdown === i && (
-            <div className='absolute left-0 top-13 w-48 bg-[#F2F8FA] shadow-lg z-50'>
+            <div className='absolute left-0 top-12.25 w-48 bg-[#F2F8FA] shadow-lg z-50'>
               {menu.submenu.map((sub, j) => (
                 <Link key={j} to={sub.href} className='block px-4 py-1 hover:bg-[#E3F0F4]'>
                   {sub.label}

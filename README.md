@@ -41,16 +41,21 @@ A modern, high-performance, and fully responsive business website inspired by Na
 
 ### Home Page (Desktop)
 
-![Home Page](./public/Screenshots/HomePage.webp)
+![Home Page](./public/Screenshots/home-desktop.png)
+![Home Page](./public/Screenshots/home-mobile.png)
 
 ### About Page (Desktop & Mobile Layout)
 
-![About Page](./public/Screenshots/AboutPage.webp)
-![About Page Mobile](./public/Screenshots/AboutMobile.webp)
+![About Page](./public/Screenshots/about-desktop.png)
+![About Page Mobile](./public/Screenshots/about-mobile.png)
 
-### Internship Framework Page
+### Form Submit Confirmation Page
 
-![Internship Page](./public/Screenshots/InternshipPage.webp)
+![Internship Page](./public/Screenshots/submit.png)
+
+### Payment Page
+
+![Internship Page](./public/Screenshots/payment.png)
 
 ---
 

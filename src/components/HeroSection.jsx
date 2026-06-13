@@ -14,7 +14,8 @@ export default function HeroSection() {
           aria-hidden='true'
           tabIndex={-1}
           role='presentation'
-          className='absolute inset-0 w-full h-full object-cover'
+          inert
+          className='absolute inset-0 w-full h-full object-cover pointer-events-none'
         ></video>
       </div>
     </section>
