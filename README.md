@@ -112,7 +112,7 @@ The production distribution hosted on Netlify achieves near-perfect execution sc
 
 #### 📄 Verifiable PDF Audit Report
 
-- 📥 **Lighthouse Logs:** [Download Combined Desktop & Mobile Metrics Report (PDF)](./reports/PageSpeed_Insights.pdf)
+- 📥 **Lighthouse Logs:** [Download Combined Desktop & Mobile Metrics Report (PDF)](./reports/lighthouse-report.pdf)
 
 ---
 
