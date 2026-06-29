@@ -4,9 +4,9 @@
   <img src="https://img.shields.io/badge/TailwindCSS-Styling-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </p>
 
-# Namrata Univers
+# Namrata Univers Business Website
 
-A modern, high-performance, and fully responsive business website inspired by Namrata Universal. Built using React, Vite, and Tailwind CSS, this project focuses on clean UI design, reusable component architecture, smooth animations, responsive layouts, and frontend performance optimization.
+A modern and responsive business website inspired by **Namrata Universal**, built with **React**, **Vite**, and **Tailwind CSS**. The project showcases reusable component architecture, responsive design, performance optimization, accessibility, and SEO best practices.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Performance-98%2F100-brightgreen?style=for-the-badge"/>
@@ -17,23 +17,26 @@ A modern, high-performance, and fully responsive business website inspired by Na
 
 ---
 
-## ⚡ Project Highlights
+## 🚀 Project Highlights
 
-- **Pixel-Perfect UI:** Closely mirrors the original platform layout with precision.
-- **Mobile-First Engineering:** Fully adaptive across mobile, tablet, and desktop viewports.
-- **Top Audit Scores:** Achieved near-perfect Google Lighthouse / PageSpeed Insights evaluation.
-- **Clean Architecture:** Scalable, modular, and fully decoupled React component framework.
-- **SEO Ready:** Enhanced semantic HTML integration with proper metadata management.
+- Pixel-perfect responsive UI
+- Mobile-first architecture
+- Reusable React components
+- SEO-friendly structure
+- Lighthouse optimized
+- Smooth animations
+- Performance focused
 
 ---
 
 ## 🔗 Important Links
 
-- 🌐 **Live Website:** https://namrataunivers.netlify.app/
-- 📂 **GitHub Repository:** https://github.com/maganstackforge/namrata-univers
-- 💻 **GitHub Profile:** https://github.com/maganstackforge
-- 👤 **LinkedIn:** https://linkedin.com/in/maganstackforge
-- 📧 **Email:** magan.stackforge@gmail.com
+- 🌐 Live Demo: https://namrataunivers.netlify.app/
+- 💻 Repository: https://github.com/theprocoderx/namrata-univers
+- 👨‍💻 Portfolio: https://procoderx.com
+- 🐙 GitHub: https://github.com/theprocoderx
+- 💼 LinkedIn: https://linkedin.com/in/procoderx
+- 📧 Email: procoderxs@gmail.com
 
 ---
 
@@ -61,53 +64,57 @@ A modern, high-performance, and fully responsive business website inspired by Na
 
 ## 📌 Features
 
-- **Fluid Layouts:** Uses Tailwind CSS grid and flexbox structures for smooth viewport scaling.
-- **Client-Side Routing:** Managed seamlessly through optimized `react-router-dom` workflows.
-- **Scroll Orchestration:** Accelerated component entry transitions utilizing AOS (Animation on Scroll).
-- **Interactive Layers:** Smooth, touch-responsive media carousels powered by Swiper.js APIs.
-- **Visual Feedback:** Global loading progress indicator seamlessly tracks route switches.
-- **Asset Pipeline:** Optimized WebP image rendering and compressed MP4 streams to protect bandwidth.
+- **Responsive Layout:** Built with Tailwind CSS Grid and Flexbox for seamless responsiveness across all screen sizes.
+- **Client-Side Routing:** Smooth page navigation powered by `react-router-dom`.
+- **Scroll Animations:** Interactive scroll-based animations implemented using AOS (Animate On Scroll).
+- **Interactive Carousel:** Touch-friendly and responsive sliders powered by Swiper.js.
+- **Loading Indicator:** Global loading progress bar for improved navigation feedback.
+- **Optimized Assets:** Compressed WebP images and optimized MP4 videos for faster loading and better performance.
 
 ---
 
 ## 🎯 Key Learning Outcomes
 
-- Engineered a highly reusable and modular React component design pattern.
-- Implemented responsive mobile-first grid systems natively via Tailwind utility classes.
-- Practiced route-based asset and performance optimization configurations.
-- Integrated `react-helmet-async` to manage index crawling and search engine indexing.
-- Mastered advanced client-side core web vital auditing workflows.
+- Built reusable and modular React components for scalable application development.
+- Implemented a mobile-first responsive layout using Tailwind CSS utility classes.
+- Optimized routing, assets, and overall frontend performance.
+- Integrated `react-helmet-async` to improve SEO and metadata management.
+- Strengthened understanding of Core Web Vitals and Lighthouse performance optimization.
 
 ---
 
 ## 📊 Quality Assurance & Performance Reports
 
-This project adheres to strict frontend coding standards and core web vital optimization. All data layers have been validated through local and live production benchmarks.
+This project follows modern frontend development standards with a strong focus on performance, accessibility, SEO, and code quality. Performance metrics and production builds have been thoroughly tested and validated to ensure a fast, reliable, and consistent user experience.
 
-> All performance metrics are measured on production build using Google Lighthouse under standard throttling conditions.
+> All performance metrics were measured on the production build using Google Lighthouse under standard throttling conditions.
 
 ### 💨 Google PageSpeed Insights (Lighthouse Metrics)
 
 The production distribution hosted on Netlify achieves near-perfect execution scores across both Desktop and Mobile environments.
 
-#### 💻 Desktop Environment Evaluation
+#### 💻 Desktop Performance Report
 
-- **Performance Score:** 98/100
-- **First Contentful Paint (FCP):** 0.3 s | **Largest Contentful Paint (LCP):** 0.4 s
-- **Total Blocking Time (TBT):** 0 ms | **Cumulative Layout Shift (CLS):** 0
+- **Performance:** 98/100
+- **First Contentful Paint (FCP):** 0.3 s
+- **Largest Contentful Paint (LCP):** 0.4 s
+- **Total Blocking Time (TBT):** 0 ms
+- **Cumulative Layout Shift (CLS):** 0
 
 <p align="center">
-  <img src="./reports/lighthouse-desktop.png" alt="Desktop PageSpeed Insights Score" width="100%">
+  <img src="./reports/lighthouse-desktop.png" alt="Desktop Lighthouse Report" width="100%">
 </p>
 
-#### 📱 Mobile Environment Evaluation
+#### 📱 Mobile Performance Report
 
-- **Performance Score:** 98/100
-- **First Contentful Paint (FCP):** 1.2 s | **Largest Contentful Paint (LCP):** 1.5 s
-- **Total Blocking Time (TBT):** 0 ms | **Cumulative Layout Shift (CLS):** 0
+- **Performance:** 98/100
+- **First Contentful Paint (FCP):** 1.2 s
+- **Largest Contentful Paint (LCP):** 1.5 s
+- **Total Blocking Time (TBT):** 0 ms
+- **Cumulative Layout Shift (CLS):** 0
 
 <p align="center">
-  <img src="./reports/lighthouse-mobile.png" alt="Mobile PageSpeed Insights Score" width="100%">
+  <img src="./reports/lighthouse-mobile.png" alt="Mobile Lighthouse Report" width="100%">
 </p>
 
 #### 📄 Verifiable PDF Audit Report
@@ -116,33 +123,33 @@ The production distribution hosted on Netlify achieves near-perfect execution sc
 
 ---
 
-### 📦 Production Build Summary (Vite Preview)
+### 📦 Production Build Report
 
-The production asset generation pipeline runs smoothly without any tree-shaking failures or compilation anomalies.
+The project was successfully built for production using Vite. The build completed without compilation errors or warnings, confirming that the application is production-ready.
 
-- 📄 **Full Report:** [View Complete Vite Compilation Summary (TXT)](./reports/build-report.txt)
+- 📄 **Build Log:** [View Complete Build Report](./reports/build-report.txt)
 
 <p align="center">
-  <img src="./reports/build-preview.png" alt="Build Report Preview" width="100%">
+  <img src="./reports/build-preview.png" alt="Vite Production Build Report" width="100%">
 </p>
 
 ---
 
-### 🧹 Code Quality Checks (ESLint + Prettier Format)
+### 🧹 Code Quality Report
 
-Automated formatting frameworks ensure syntax safety and style normalization across all modules.
+The project follows consistent coding standards using ESLint and Prettier to maintain clean, readable, and well-formatted source code.
 
-- 📄 **Full Report:** [View Complete ESLint + Prettier Report (TXT)](./reports/clean-report.txt)
+- 📄 **Code Quality Report:** [View Complete ESLint & Prettier Report](./reports/clean-report.txt)
 
 <p align="center">
-  <img src="./reports/clean-preview.png" alt="Clean Report Preview" width="100%">
+  <img src="./reports/clean-preview.png" alt="ESLint and Prettier Report" width="100%">
 </p>
 
 ---
 
-## 🧰 Technical Stack Breakdown
+## 🧰 Tech Stack
 
-### Core Environment
+### Core Technologies
 
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -152,18 +159,18 @@ Automated formatting frameworks ensure syntax safety and style normalization acr
 - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
 - ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### UI Libraries & Animation
+### UI Libraries
 
 - ![AOS](https://img.shields.io/badge/AOS-Animation-orange?style=for-the-badge)
 - ![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white)
 - ![React Icons](https://img.shields.io/badge/React%20Icons-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-### SEO & Performance Hooking
+### SEO & Performance
 
 - ![React Helmet Async](https://img.shields.io/badge/React%20Helmet-20232A?style=for-the-badge&logo=react&logoColor=white)
 - ![Intersection Observer](https://img.shields.io/badge/Intersection%20Observer-FF6B6B?style=for-the-badge)
 
-### Tooling & Code Quality
+### Development Tools
 
 - ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 - ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
@@ -224,7 +231,7 @@ Run the following commands sequentially in your local environment shell:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/maganstackforge/namrata-univers.git
+git clone https://github.com/theprocoderx/namrata-univers.git
 
 # 2. Open the project folder
 cd namrata-univers
@@ -250,10 +257,13 @@ Inside the project directory, you can also run these standard scripts:
 
 ## 👨‍💻 Author
 
-Magan Singh
-
+Magan Singh  
 Frontend Developer | React Developer
+
+Frontend Developer Intern at Namrata Universal (Nov 2025 – Present)
 
 ## 📄 License
 
-This repository is built strictly for educational and portfolio presentation purposes.
+This project is created for educational and portfolio purposes only. It is not intended for commercial use or redistribution.
+
+All rights reserved to the author.
